@@ -42,7 +42,7 @@
                     <div class="title"> {{ site.title }} </div>
                     <div class="description">{{ site.description }}</div>
                 </hgroup>
-                <ul id="nav" class="nav nav-pills">
+                <ul id="nav" class="inline">
                     <li><a href="{{ site.url }}/">首页</a></li>
                     <li><a href="{{ site.url }}/page.html">目录</a></li>
                     <li><a href="{{ site.url }}/about.html">关于我</a></li>
