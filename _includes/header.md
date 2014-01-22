@@ -5,16 +5,8 @@
         <title>{{ page.title }} | {{ site.title }}</title>
         <meta name="author" content="{{ site.owner.name }}." />
         <meta name="copyright" content="{{ site.owner.name }}." />
-        {% if page.keywords %}
-        <meta name="keywords" content="{{ page.keywords }}">
-        {% else %}
-        {% if site.keywords %}<meta name="keywords" content="{{ site.keywords }}" />{% endif %}
-        {% endif %}
-        {% if page.description %}
-        <meta name="description" content="{{ page.description }}">
-        {% else %}
-        {% if site.description %}<meta name="description" content="{{ site.description }}" />{% endif %}
-        {% endif %}
+        {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% else %}{% if site.keywords %}<meta name="keywords" content="{{ site.keywords }}" />{% endif %}{% endif %}
+        {% if page.description %}<meta name="description" content="{{ page.description }}">{% else %}{% if site.description %}<meta name="description" content="{{ site.description }}" />{% endif %}{% endif %}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- iframe 方式弹广告 参考:http://en.wikipedia.org/wiki/Framekiller -->
         <style> html{display: none;} </style>
@@ -41,6 +33,8 @@
                         <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
                                        <link rel="shortcut icon" href="ico/favicon.png">
     </head>
+    <body>
+        <div class="container">
 <!-- header -->
             <header class="text-center" role="banner">
                 <hgroup class="pb15">
