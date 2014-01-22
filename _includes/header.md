@@ -21,7 +21,7 @@
         <link href="http://cdn.bootcss.com/twitter-bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet" media="screen" />
         <!-- <link href="css/bootstrap-responsive.min.css" rel="stylesheet" /> -->
         <link href="http://cdn.bootcss.com/twitter-bootstrap/2.3.2/css/bootstrap-responsive.min.css" rel="stylesheet" />
-        <link href="css/style.css" rel="stylesheet" />
+        <link href="{{ site.url }}/css/style.css" rel="stylesheet" />
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!-- <script src="js/html5shiv.min.js"></script> -->
         <!--[if lt IE 9]>
