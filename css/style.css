@@ -15,9 +15,6 @@ a:hover {
 	color: #21759B;
 	background: none repeat scroll 0 0 #D0E8F4;
 }
-img:hover {
-    opacity: 0.7;
-}
 .container {
 	width: auto;
     max-width: 800px;
@@ -61,6 +58,7 @@ header[role="banner"] img:hover{
 	-moz-transform: rotate(360deg);
 	-o-transform: rotate(360deg);
 	-ms-transform: rotate(360deg);
+	opacity: 0.7;
 }
 header[role="banner"] .title {
     letter-spacing: 0.1rem;
@@ -81,19 +79,28 @@ header[role="banner"] .description {
     border-style: none none solid;
     border-width: 1px;
 }
-#nav {
-	width: 225px;
-	margin: 0 auto 10px auto;
-}
-.nav > li {
-	width: 75px;
+#nav > li {
+	width: 55px;
 	text-align: center;
+	padding: 0;
 }
-.nav > li > a {
-	font-size: 16px;
+#nav > li > a {
+	color: #555;
+}
+#nav > li > a:hover {
+	color: #21759B;
+	background-color: inherit;
+	text-decoration: none;
 }
 #main article {
-	word-wrap: break-word;
+    -moz-hyphens: auto;
+    border-bottom: 2px double #EDEDED;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+    word-wrap: break-word;
+}
+header.entry-header {
+	margin-bottom: 15px;
 }
 .entry-header .entry-title {
 	letter-spacing: 0.1rem;
@@ -108,11 +115,19 @@ footer.entry-meta {
 	text-align: right;
     color: #686868;
     font-size: 12px;
-    margin-top: 1.71429rem;
+    margin-top: 18px;
 }
 .nav-single {
 	width: 90%;
 	margin: 0 auto;
+}
+.previous {
+    float: left;
+    width: 49%;
+}
+.next {
+	float: right;
+    width: 49%;
 }
 footer[role="contentinfo"] {    
 	border-top: 1px solid #EDEDED;
@@ -125,6 +140,36 @@ footer[role="contentinfo"] a ,.entry-meta a{
 }
 footer[role="contentinfo"] a:hover,.entry-meta a:hover {
     color: #21759B;
+}
+.directoryList {
+	font-size: 16px;
+	color: #686868;
+}
+.directoryList li {
+	border-bottom:dotted #c7c7c7 1px;
+	padding: 5px 2px;
+}
+.directoryList li span{
+	float: right;
+}
+.directoryList li a:hover{
+	text-decoration: none;
+	background-color: inherit;
+}
+.pagination {
+	text-align: center;
+}
+.contactList {
+	color: #686868;
+}
+.contactList li {
+	line-height: 25px;
+}
+.contactList a {
+	color: #686868;
+}
+.contactList a:hover {
+	color: #21759B;
 }
 .pb15 {
 	padding-bottom: 15px;

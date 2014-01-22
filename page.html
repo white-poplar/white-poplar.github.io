@@ -1,14 +1,20 @@
 ---
-title: 全部文章
 layout: default
+title: 目录
 ---
- <div id="list">
-    {% for tag in site.tags %}
-      <h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
-      <ul class="linkBgChange">
-	    {% for post in tag[1] %}
-		<a href="{{ post.url }}"><li>{{ post.title }}</li></a>
-	    {% endfor %}
-      </ul>
-    {% endfor %}
- </div>
+
+                <article>
+                    <header class="entry-header">
+                        <h3 class="entry-title">目录</h3>
+                    </header>
+                    <div class="entry-content">
+                        <ul class="unstyled directoryList">
+                            {% for post in paginator.posts %}
+                            <li><span>{{ post.date | date:"%d - %m - %Y" }}</span><a title="{{ post.title }}" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> </li>
+                            {% endfor %}
+                        </ul>
+                        {% include pagination.md%}
+                    </div>
+                    <footer class="entry-meta">
+                    </footer>
+                </article>

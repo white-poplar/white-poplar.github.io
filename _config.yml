@@ -1,15 +1,22 @@
-﻿safe: true
-lsi: false
-pygments: true
-markdown: redcarpet
+# This is the default format. 
+# For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink: /:year/:month/:day/:title 
+
 auto: true
-title: "松的博客"
-public_url: "http://youngpine.github.com"
-keywords: "android,xml,html,JavaScript,css,Github"
+# 这个解析引擎更友好的支持中文
+markdown: rdiscount
+
+# 每一页显示的文章数
+paginate: 6
+
+# Themes are encouraged to use these universal variables 
+# so be sure to set them if your theme uses them.
+#
+# set for rss feed
+title: "白楊的博客"
+description: "真、"
+url: "http://white-poplar.github.io"
+keywords: "白楊, white-poplar, 白楊的博客, 互联网, web 技术"
 owner:
-  name: "陈古松"
-  mail: "1036720429@qq.com"
-disqus:
-  short_name: "youngpine"
-paginate: 10
-exclude: [start-jekyll.bat, Github.sln, Github.v11.suo]
+  name: "white-poplar"
+  nickname: "白楊"

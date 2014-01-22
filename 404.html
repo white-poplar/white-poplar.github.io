@@ -1,7 +1,59 @@
 ---
-title: Page not found ! :-(
-layout: default
+layout: nil
+title: 404 Page Not Found
 ---
-<div id="list">
-<h2>Sorry, The page you request is not found! :-( </h2>
-</div>
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8" />
+        <title>404 Page Not Found | {{ site.title }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- iframe 方式弹广告 参考:http://en.wikipedia.org/wiki/Framekiller -->
+        <style> html{display: none;} </style>
+        <script>
+           if( self == top ) {
+               document.documentElement.style.display = 'block' ; 
+           } else {
+               top.location = self.location ; 
+           }
+        </script>
+        <!-- <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" /> -->
+        <link href="http://cdn.bootcss.com/twitter-bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+        <!-- <link href="css/bootstrap-responsive.min.css" rel="stylesheet" /> -->
+        <style type="text/css">
+            body {font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;}
+            a {color: #21759B;}
+            a:hover {color: #21759B;background: none repeat scroll 0 0 #D0E8F4;}
+            #content{text-align:center;padding:8px;}
+            span{padding:0 4px 0 2px;}
+            .mt10{margin-top: 10px; text-align: center;}
+        </style>
+        <link href="http://cdn.bootcss.com/twitter-bootstrap/2.3.2/css/bootstrap-responsive.min.css" rel="stylesheet" />
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+          <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+                        <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+                                       <link rel="shortcut icon" href="ico/favicon.png">
+    </head>
+    <body>
+        <div>
+            <div class="mt10">
+                ^_^ 出错啦，您访问的页面不存在！
+            </div>
+            <div class="mt10">
+                << 返回首页 <a href="{{ site.url }}"> {{ site.url }}</a>
+            </div>
+            <div id="content">
+                <img src="img/404.jpg" alt="404" />
+            </div>
+            <div align="center">
+                <p style="margin-bottom:0.5em;">继续访问：</p>
+                <span><a href="https://github.com/white-poplar">GitHub</a></span>|
+                <span><a href="https://plus.google.com/u/0/107447870058105315351">Google+</a></span>|
+                <span><a href="https://www.facebook.com/WhitePoplar9">FaceBook</a></span>|
+                <span><a href="https://twitter.com/WhitePoplar9">Twitter</a></span>
+            </div>
+        </div>   
+    </body>
+</html>
