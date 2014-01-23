@@ -10,6 +10,11 @@
                         {% else %}
                         <li class="disabled"><a href="#" title="前一页">&laquo;</a></li>
                         {% endif %}
+                        {% if paginator.page == 1 %}
+                        <li class="disabled"><a href="#">1</a></li>
+                        {% else %}
+                        <a href="{{ site.url }}/">1</a>
+                        {% endif %}
                         {% for count in (2..paginator.total_pages) limit:5 %}
                             {% if count == paginator.page %}
                         <li class="disabled"><a href="#">{{count}}</a></li>

@@ -35,6 +35,11 @@
     </head>
     <body>
         <div class="container">
+            <div id="QRcode">
+                <img src="img/qrcode.png" alt="Qrcode" />
+                <br/>
+                手机扫描二维码快速访问
+            </div>
 <!-- header -->
             <header class="text-center" role="banner">
                 <hgroup class="pb15">
