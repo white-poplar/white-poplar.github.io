@@ -12,7 +12,7 @@ title: 首页
                     	{{ post.content  | | split:'<!--break-->' | first}}
                     </div>
                     <footer class="entry-meta">
-                        {{ post.date | date:"%Y/%m/%d" }} <a href="{{ site.url }}{{ post.url }}">阅读全文</a>
+                        {{ post.date | date:"%Y/%m/%d" }} <a href="{{ site.url }}{{ post.url }}">阅读全文 More+ </a>
                     </footer>
                 </article>
                 {% endfor %}
