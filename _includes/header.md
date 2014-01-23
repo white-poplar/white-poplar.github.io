@@ -36,7 +36,7 @@
     <body>
         <div class="container">
             <div id="QRcode">
-                <img src="img/qrcode.png" alt="Qrcode" />
+                <img src="{{ site.url }}/img/qrcode.png" alt="Qrcode" />
                 <br/>
                 手机扫描二维码快速访问
             </div>
