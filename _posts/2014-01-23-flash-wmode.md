@@ -18,9 +18,9 @@ tags: [html]
 
 但是如果有下拉菜单或漂浮层在其区域时会被flash遮住，设置`z-index`不起作用，解决的办法是：
 
-IE：添加 **\<param name="wmode" value="transparent"\>** 语句；
+IE：添加 `<param name="wmode" value="transparent">` 语句；
 
-FF: 火狐里FLASH是用EMBED实现的，所以在\<embed\>里加wmode="transparent" 即\<embed wmode="transparent" 其他参数\>
+FF: 火狐里FLASH是用EMBED实现的，所以在 `<embed>` 里加 wmode="transparent" 即 `<embed wmode="transparent" 其他参数\>` 
 
 最终代码：
 
