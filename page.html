@@ -9,11 +9,10 @@ title: 目录
                     </header>
                     <div class="entry-content">
                         <ul class="unstyled directoryList">
-                            {% for post in paginator.posts %}
+                            {% for post in site.posts %}
                             <li><span>{{ post.date | date:"%d - %m - %Y" }}</span><a title="{{ post.title }}" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> </li>
                             {% endfor %}
                         </ul>
-                        {% include pagination.md%}
                     </div>
                     <footer class="entry-meta">
                     </footer>

@@ -38,7 +38,7 @@
 <!-- header -->
             <header class="text-center" role="banner">
                 <hgroup class="pb15">
-                    <img src="img/avatar.jpg" alter="avatar" />
+                    <img src="{{ site.url }}/img/avatar.jpg" alter="avatar" />
                     <div class="title"> {{ site.title }} </div>
                     <div class="description">{{ site.description }}</div>
                 </hgroup>
