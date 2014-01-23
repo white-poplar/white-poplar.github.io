@@ -41,6 +41,8 @@ tags: [ASP]
 	engotTopic=replace(replace(replace(engotTopic,chr(34),"&quot;"),">","&gt;"),"<","&lt;")        
 	end function
 	
-使用方法：
+使用方法：  
+
 	<%=engotTopic("Your job won't take care of you when you are sick. Your friends and parents will. Stay in touch.",17)%>
+	
 输出：Your job won't…
