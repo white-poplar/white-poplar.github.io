@@ -13,7 +13,7 @@
                         {% if paginator.page == 1 %}
                         <li class="disabled"><a href="#">1</a></li>
                         {% else %}
-                        <a href="{{ site.url }}/">1</a>
+                        <li><a href="{{ site.url }}/">1</a></li>
                         {% endif %}
                         {% for count in (2..paginator.total_pages) limit:5 %}
                             {% if count == paginator.page %}
