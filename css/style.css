@@ -201,3 +201,9 @@ footer[role="contentinfo"] a:hover,.entry-meta a:hover {
 		display: block;
 	}
 }
+/* 目录 */
+#main #directory {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
