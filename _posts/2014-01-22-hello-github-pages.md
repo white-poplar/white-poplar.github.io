@@ -9,7 +9,7 @@ tags: [markdown, github]
 
 **GitHub Pages**
 
-一直想搭建个自己真正的博客，但由于自己的懒惰一直没有的如愿，每次都是做到一半被其他的事情吸引过去了。从二零一四年一月十几号开始到现在，大约有一周多的时间才大致吧博客搭好。
+一直想搭建个自己真正的博客，但由于自己的懒惰一直没有的如愿，每次都是做到一半被其他的事情吸引过去了。从二零一四年一月十几号开始到现在，大约有一周多的时间才大致把博客搭好。
 
 由于现在在学习 `Git` ，所以肯定要上 [GitHub](https://github.com/) 网站啦，刚好看到阮一峰童鞋写的一篇[文章](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html) 讲到了 [GitHub Pages](http://pages.github.com/) ，所以就根据文章开始搭建在 [GitHub Pages](http://pages.github.com/) 上了。
 
