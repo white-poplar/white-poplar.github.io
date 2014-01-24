@@ -25,6 +25,6 @@ tags: [markdown, github]
 * [左銀右煌](http://grahamle.github.io/)
 * [多多de棉花糖](http://hugcoday.github.io/)
 
-一个字形容就是 **清**
+一个字形容就是 **轻**
 
 > git+github+jekyll+markdown
