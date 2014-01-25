@@ -8,6 +8,8 @@ markdown: rdiscount
 
 # 每一页显示的文章数
 paginate: 5
+# 页码个数
+pagelen: 5
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
