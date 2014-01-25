@@ -15,7 +15,7 @@
                         {% else %}
                         <li><a href="{{ site.url }}/">1</a></li>
                         {% endif %}
-                        {% for count in (2..paginator.total_pages) limit:2 %}
+                        {% for count in (2..paginator.total_pages) limit:site.pagelen %}
                             {% if count == paginator.page %}
                         <li class="disabled"><a href="#">{{count}}</a></li>
                             {% else %}
