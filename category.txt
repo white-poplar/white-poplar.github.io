@@ -1,5 +1,5 @@
-category 分类
+﻿category 分类
 
 programming 编程
 tech 技术
-live 生活
+life 生活
