@@ -13,8 +13,8 @@ Google Fonts API 是 Google 推出的一项免费的字体服务，有600多种�
 ** Google Font API **
 
 
-1.进入 Google Web Fonts 主页 [https://www.google.com/fonts/](https://www.google.com/fonts/)，选择字体，我选了Arbutus、Over the Rainbow、Mystery Quest 字体。
-2.选择 `Use`，进入 `Almost done!` 页面，选择完成。
+1.进入 Google Web Fonts 主页 [https://www.google.com/fonts/](https://www.google.com/fonts/)，选择字体，我选了Arbutus、Over the Rainbow、Mystery Quest 字体。  
+2.选择 `Use`，进入 `Almost done!` 页面，选择完成。  
 3.将字体使用到自己网站中，有三种方法：
 
 	方法一：
