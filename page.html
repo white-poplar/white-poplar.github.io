@@ -9,7 +9,9 @@ title: 目录
                     </header>
                     <div class="entry-content">
                         <ul class="unstyled directoryList">
-                            {% for post in site.posts %}<li><span>{{ post.date | date:"%d - %m - %Y" }}</span><a title="{{ post.title }}" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> </li>{% endfor %}
+                            {% for post in site.posts %}
+                            <li><span>{{ post.date | date:"%d - %m - %Y" }}</span><a title="{{ post.title }}" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+                            {% endfor %}
                         </ul>
                     </div>
                     <footer class="entry-meta">
