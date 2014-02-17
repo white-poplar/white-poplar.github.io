@@ -5,7 +5,7 @@ category: life
 tags: [说给自己听]
 ---
 
-这是在[知乎](http://www.zhihu.com/)上看到的一个[问题](http://www.zhihu.com/question/20664570)，其中得票最多的一个回答，自己看了好多边，贴了过来，与君共勉。
+这是在[知乎](http://www.zhihu.com/)上看到的一个[问题](http://www.zhihu.com/question/20664570)，其中得票最多的一个回答，自己看了好多遍，贴了过来，与君共勉。
 
 <!--break-->
 
