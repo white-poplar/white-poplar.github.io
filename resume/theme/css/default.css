@@ -357,7 +357,8 @@ slides > slide > hgroup + article.flexbox.vcenter, slides > slide > hgroup + art
 }
 /* line 189, ../scss/default.scss */
 slides > slide > hgroup + article p {
-  margin-bottom: 1em;
+  /* margin-bottom: 1em; */
+  margin-bottom: 0.6em;
 }
 /* line 194, ../scss/default.scss */
 slides > slide > article:only-child {
