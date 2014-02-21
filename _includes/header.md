@@ -2,12 +2,13 @@
 <html lang="zh-CN">
     <head>
         <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
         <title>{{ page.title }} | {{ site.title }}</title>
         <meta name="author" content="{{ site.owner.name }}." />
         <meta name="copyright" content="{{ site.owner.name }}." />
         {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% else %}{% if site.keywords %}<meta name="keywords" content="{{ site.keywords }}" />{% endif %}{% endif %}
         {% if page.description %}<meta name="description" content="{{ page.description }}">{% else %}{% if site.description %}<meta name="description" content="{{ site.description }}" />{% endif %}{% endif %}
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
         <!-- iframe 方式弹广告 参考:http://en.wikipedia.org/wiki/Framekiller -->
         <style> html{display: none;} </style>
         <script>
