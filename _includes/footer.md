@@ -23,11 +23,15 @@
         <!-- <script src="js/bootstrap.min.js"></script> -->
         <script src="http://cdn.bootcss.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="{{ site.url }}/plugins/nprogress/nprogress.js"></script>
+<!-- Loading Bar -->
         <script>
             NProgress.start();
-            $(function() {
-                NProgress.done();
-            });
+            document.onreadystatechange=function(){ 
+                if(document.readyState=="complete"){ 
+                    setTimeout(function() { NProgress.done(); }, 500);
+                } 
+            }
         </script>
+<!-- /Loading Bar -->
     </body>
 </html>
