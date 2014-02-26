@@ -186,9 +186,9 @@ footer[role="contentinfo"] a:hover,.entry-meta a:hover {
 /* QRcode */
 #QRcode {
 	top: 10px;
-	width: 150px;
+	width: 140px;
 	height: 150px;
-	text-align: center;
+	text-align: right;
 	left: 50%;
 	margin-left: 440px;
 	font-size: 12px;
