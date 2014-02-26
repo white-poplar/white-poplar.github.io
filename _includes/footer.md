@@ -18,11 +18,6 @@
             </footer>
 <!-- /footer -->
         </div>
-        <!-- <script src="js/jquery-1.9.1.min.js"></script> -->
-        <script src="http://cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script>
-        <!-- <script src="js/bootstrap.min.js"></script> -->
-        <script src="http://cdn.bootcss.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="{{ site.url }}/plugins/nprogress/nprogress.js"></script>
 <!-- Loading Bar -->
         <script>
             NProgress.start();

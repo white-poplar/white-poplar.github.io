@@ -34,6 +34,11 @@
           <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.url }}/ico/apple-touch-icon-72-precomposed.png">
                         <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/ico/apple-touch-icon-57-precomposed.png">
                                        <link rel="shortcut icon" href="{{ site.url }}/ico/favicon.png">
+        <!-- <script src="js/jquery-1.9.1.min.js"></script> -->
+        <script src="http://cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script>
+        <!-- <script src="js/bootstrap.min.js"></script> -->
+        <script src="http://cdn.bootcss.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="{{ site.url }}/plugins/nprogress/nprogress.js"></script>
     </head>
     <body>
         <div class="container">
