@@ -22,5 +22,12 @@
         <script src="http://cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script>
         <!-- <script src="js/bootstrap.min.js"></script> -->
         <script src="http://cdn.bootcss.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="{{ site.url }}/plugins/nprogress/nprogress.js"></script>
+        <script>
+            NProgress.start();
+            $(function() {
+                NProgress.done();
+            });
+        </script>
     </body>
 </html>
