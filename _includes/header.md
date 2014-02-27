@@ -75,7 +75,9 @@
         {% if page.description %}<meta name="description" content="{{ page.description }}">{% else %}{% if site.description %}<meta name="description" content="{{ site.description }}" />{% endif %}{% endif %}
         <!-- Webpage timer begin -->
         <script type="text/javascript">
+        try {
           console.time("Webpage timer");
+        } catch (e) {};
         </script>
         <!-- iframe 方式弹广告 参考:http://en.wikipedia.org/wiki/Framekiller -->
         <style> html{display: none;} </style>
