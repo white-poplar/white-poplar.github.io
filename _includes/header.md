@@ -115,11 +115,11 @@
             </div>
 <!-- header -->
             <header class="text-center" role="banner">
-                <hgroup class="pb15">
-                    <img src="{{ site.url }}/img/avatar.jpg" alter="avatar" />
+                <div class="pb15">
+                    <img src="{{ site.url }}/img/avatar.jpg" alt="avatar" />
                     <div class="title"> {{ site.title }} </div>
                     <div class="description">{{ site.description }}</div>
-                </hgroup>
+                </div>
                 <ul id="nav" class="inline">
                     <li><a href="{{ site.url }}/">首页</a></li>
                     <li><a href="{{ site.url }}/page.html">目录</a></li>
