@@ -128,4 +128,4 @@
                 <nav class="main-navigation"> </nav>
             </header>
 <!-- /header -->
-            <div id="main" role="content">
+            <div id="main">
