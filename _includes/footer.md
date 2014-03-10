@@ -5,12 +5,12 @@
                     &copy; 2013 - <script> document.write(new Date().getFullYear());</script> <a href="{{ site.url }}" title="{{ site.owner.nickname }}" >{{ site.owner.name }}</a>.
                 </div>
                 <div>
-                    Hosted by <a href="http://pages.github.com/" title="GitHub Pages" >GitHub Pages</a> | UI Designed by <a href="{{ site.url }}" title="{{ site.owner.nickname }}">{{ site.owner.name }}</a>. | 托管商：<a href="https://github.com/" title="GitHub">GitHub</a>                    
+                    Hosted by <a href="http://pages.github.com/" title="GitHub Pages" >GitHub Pages</a> | UI Designed by <a href="{{ site.url }}" title="{{ site.owner.nickname }}">{{ site.owner.name }}</a>. | 托管商：<a href="https://github.com/" title="GitHub">GitHub</a>
                 </div>
             </footer>
             <footer class="clearfix visible-phone text-center" role="contentinfo">
                 <div>
-                    Hosted by <a href="http://pages.github.com/" title="GitHub Pages" >GitHub Pages</a> | UI Designed by <a href="{{ site.url }}" title="{{ site.owner.nickname }}">{{ site.owner.name }}</a>. | 托管商：<a href="https://github.com/" title="GitHub">GitHub</a>                    
+                    Hosted by <a href="http://pages.github.com/" title="GitHub Pages" >GitHub Pages</a> | UI Designed by <a href="{{ site.url }}" title="{{ site.owner.nickname }}">{{ site.owner.name }}</a>. | 托管商：<a href="https://github.com/" title="GitHub">GitHub</a>
                 </div>
                 <div>
                     &copy; 2013 - <script> document.write(new Date().getFullYear());</script> <a href="{{ site.url }}" title="{{ site.owner.nickname }}" >{{ site.owner.name }}</a>.
