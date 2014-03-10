@@ -65,7 +65,7 @@
 
         - QQ: 「1161057790」
         - Gtalk: 「BYH5566@gmail.com」
-        
+
         好吧，上圖其實是 Lin Chi-ling，console 一下，你就知道
 
         -->
@@ -76,14 +76,14 @@
         {% if page.description %}<meta name="description" content="{{ page.description }}">{% else %}{% if site.description %}<meta name="description" content="{{ site.description }}" />{% endif %}{% endif %}
         <!-- Webpage timer begin -->
         <script type="text/javascript">
-        try {
-          console.time("Webpage timer");
-        } catch (e) {};
+            try {
+              console.time("Webpage timer");
+            } catch (e) {};
         </script>
         <!-- iframe 方式弹广告 参考:http://en.wikipedia.org/wiki/Framekiller -->
         <style> html{display: none;} </style>
         <script>
-           if( self == top ) {
+           if ( self == top ) {
                document.documentElement.style.display = 'block' ; 
            } else {
                top.location = self.location ; 

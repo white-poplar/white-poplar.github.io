@@ -3,13 +3,13 @@ layout: default
 title: 首页
 ---
 
-				{% for post in paginator.posts %}
+                {% for post in paginator.posts %}
                 <article>
                     <header class="entry-header">
                         <h3 class="entry-title"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
                     </header>
                     <div class="entry-content">
-                    	{{ post.content  | | split:'<!--break-->' | first}}
+                        {{ post.content  | | split:'<!--break-->' | first}}
                     </div>
                     <footer class="entry-meta">
                         {{ post.date | date:"%Y/%m/%d" }} <a href="{{ site.url }}{{ post.url }}">阅读全文 More+ </a>
