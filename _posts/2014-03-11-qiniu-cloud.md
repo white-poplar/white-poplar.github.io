@@ -37,6 +37,6 @@ tags: [云存储, 图片加速]
 
 PS：参数什么的 `API` 好像给的挺详细的，多看！好像没提到图片加速啊，⊙﹏⊙b汗，反正他们使用的是什么CDN加速什么的。（好吧，确实不是很清楚什么CDN）
 
-另：如果有童鞋要注册的话，请使用 https://portal.qiniu.com/signup?code=3ljldv1wzuwcy ，没什么不同，只是通过这个链接注册七牛云那边会送我5Gb的下载流量，么么哒！
+另：如果有童鞋要注册的话，请使用 [https://portal.qiniu.com/signup?code=3ljldv1wzuwcy](https://portal.qiniu.com/signup?code=3ljldv1wzuwcy) ，没什么不同，只是通过这个链接注册七牛云那边会送我5Gb的下载流量，么么哒！
 
 >配图来源 [Google 图片](https://www.google.com.hk/imghp?hl=zh-CN "Google 图片") 
