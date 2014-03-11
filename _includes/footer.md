@@ -1,16 +1,16 @@
             </div>
 <!-- footer -->
-            <footer class="clearfix hidden-phone" role="contentinfo">
+            <footer class="clearfix visible-desktop" role="contentinfo">
                 <div class="pull-right">
                     &copy; 2013 - <script> document.write(new Date().getFullYear());</script> <a href="{{ site.url }}" title="{{ site.owner.nickname }}" >{{ site.owner.name }}</a>.
                 </div>
                 <div>
-                    Hosted by <a href="http://pages.github.com/" title="GitHub Pages" >GitHub Pages</a> | UI Designed by <a href="{{ site.url }}" title="{{ site.owner.nickname }}">{{ site.owner.name }}</a>. | 托管商：<a href="https://github.com/" title="GitHub">GitHub</a>
+                    Hosted by <a href="http://pages.github.com/" title="GitHub Pages" >GitHub Pages</a> | UI Designed by <a href="{{ site.url }}" title="{{ site.owner.nickname }}">{{ site.owner.name }}</a>. | 托管商：<a href="https://github.com/" title="GitHub">GitHub</a> | 图片存储：<a href="http://www.qiniu.com/" title="七牛云存储">七牛云</a>
                 </div>
             </footer>
-            <footer class="clearfix visible-phone text-center" role="contentinfo">
+            <footer class="clearfix hidden-desktop text-center" role="contentinfo">
                 <div>
-                    Hosted by <a href="http://pages.github.com/" title="GitHub Pages" >GitHub Pages</a> | UI Designed by <a href="{{ site.url }}" title="{{ site.owner.nickname }}">{{ site.owner.name }}</a>. | 托管商：<a href="https://github.com/" title="GitHub">GitHub</a>
+                    Hosted by <a href="http://pages.github.com/" title="GitHub Pages" >GitHub Pages</a> | UI Designed by <a href="{{ site.url }}" title="{{ site.owner.nickname }}">{{ site.owner.name }}</a>. | 托管商：<a href="https://github.com/" title="GitHub">GitHub</a> | 图片存储：<a href="http://www.qiniu.com/" title="七牛云存储">七牛云</a>
                 </div>
                 <div>
                     &copy; 2013 - <script> document.write(new Date().getFullYear());</script> <a href="{{ site.url }}" title="{{ site.owner.nickname }}" >{{ site.owner.name }}</a>.
