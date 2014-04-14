@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+        <title>CSS3 @keyframes | 白楊的博客</title>
+        <meta name="author" content="white-poplar." />
+        <meta name="copyright" content="white-poplar." />
+        <meta name="keywords" content="白楊, white-poplar, 白楊的博客, 互联网, web 技术" />
+        <meta name="description" content="真、" />
+        <!-- iframe 方式弹广告 参考:http://en.wikipedia.org/wiki/Framekiller -->
+        <style> html{display: none;} </style>
+        <script>
+           if( self == top ) {
+               document.documentElement.style.display = 'block' ; 
+           } else {
+               top.location = self.location ; 
+           }
+        </script>
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://white-poplar.github.io/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://white-poplar.github.io/ico/apple-touch-icon-114-precomposed.png">
+          <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://white-poplar.github.io/ico/apple-touch-icon-72-precomposed.png">
+                        <link rel="apple-touch-icon-precomposed" href="http://white-poplar.github.io/ico/apple-touch-icon-57-precomposed.png">
+                                       <link rel="shortcut icon" href="http://white-poplar.github.io/ico/favicon.png">
+        <style type="text/css">
+            body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {
+                margin:0;
+                padding:0;
+            }
+            body,button,input,select,textarea {
+                font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+                font:14px/1.6;
+            }
+            body {
+                padding: 20px;
+                width: 800px;
+                margin: 0 auto;
+            }
+            .Examples {
+                height: 350px;
+                margin-bottom: 20px;
+                border: dotted #900 1px;
+            }
+
+            #box1 {
+                width:100px;
+                height:100px;
+                background-color: #040;
+                position:relative;
+                animation:Downmove 5s infinite;
+                -moz-animation:Downmove 5s infinite; /* Firefox */
+                -webkit-animation:Downmove 5s infinite; /* Safari and Chrome */
+                -o-animation:Downmove 5s infinite; /* Opera */
+            }
+            @keyframes Downmove {
+                from {top:0px;}
+                to {top:200px;}
+            }
+            @-moz-keyframes Downmove { /* Firefox */
+                from {top:0px;}
+                to {top:200px;}
+            }
+            @-webkit-keyframes Downmove { /* Safari and Chrome */
+                from {top:0px;}
+                to {top:200px;}
+            }
+            @-o-keyframes Downmove { /* Opera */
+                from {top:0px;}
+                to {top:200px;}
+            }
+
+            #box2 {
+                width:100px;
+                height:100px;
+                background-color: #040;
+                position:relative;
+                animation:Dmove 8s infinite;
+                -moz-animation:Dmove 8s infinite; /* Firefox */
+                -webkit-animation:Dmove 8s infinite; /* Safari and Chrome */
+                -o-animation:Dmove 8s infinite; /* Opera */
+            }
+            @keyframes Dmove {
+                0% {top:0px;}
+                50% {top:200px; background-color: #f00;}
+                100% {top:0px;}
+            }
+            @-moz-keyframes Dmove { /* Firefox */
+                0% {top:0px;}
+                50% {top:200px; background-color: #f00;}
+                100% {top:0px;}
+            }
+            @-webkit-keyframes Dmove { /* Safari and Chrome */
+                0% {top:0px;}
+                50% {top:200px; background-color: #f00;}
+                100% {top:0px;}
+            }
+            @-o-keyframes Dmove { /* Opera */
+                0% {top:0px;}
+                50% {top:200px; background-color: #f00;}
+                100% {top:0px;}
+            }
+
+            #box3 {
+                width:100px;
+                height:100px;
+                background-color: #040;
+
+                animation:fadeIn 3s infinite;
+                -moz-animation:Dmove 3s infinite; /* Firefox */
+                -o-animation:Dmove 3s infinite; /* Opera */
+
+                /* Safari and Chrome */
+                -webkit-animation-name: fadeIn; /*动画名称*/
+                -webkit-animation-duration: 3s; /*动画持续时间*/
+                -webkit-animation-iteration-count: infinite; /*动画次数*/
+                -webkit-animation-delay: 0s; /*延迟时间*/
+            }
+            @keyframes fadeIn {
+                0% {
+                    opacity: 1; /*初始状态 透明度为1*/
+                }
+                50% {
+                    opacity: 0; /*中间状态 透明度为0*/
+                }
+                100% {
+                    opacity: 1; /*结尾状态 透明度为1*/
+                }
+            }
+            @-moz-keyframes fadeIn { /* Firefox */
+                0% {
+                    opacity: 1; /*初始状态 透明度为1*/
+                }
+                50% {
+                    opacity: 0; /*中间状态 透明度为0*/
+                }
+                100% {
+                    opacity: 1; /*结尾状态 透明度为1*/
+                }
+            }
+            @-webkit-keyframes fadeIn { /* Safari and Chrome */
+                0% {
+                    opacity: 1; /*初始状态 透明度为1*/
+                }
+                50% {
+                    opacity: 0; /*中间状态 透明度为0*/
+                }
+                100% {
+                    opacity: 1; /*结尾状态 透明度为1*/
+                }
+            }
+            @-o-keyframes fadeIn { /* Opera */
+                0% {
+                    opacity: 1; /*初始状态 透明度为1*/
+                }
+                50% {
+                    opacity: 0; /*中间状态 透明度为0*/
+                }
+                100% {
+                    opacity: 1; /*结尾状态 透明度为1*/
+                }
+            }
+
+            #box4 {
+                width:100px;
+                height:100px;
+                background-color: #040;
+                /*border-radius: 50%;*/
+
+                -webkit-animation: rotate 5s linear infinite;
+            }
+            @-webkit-keyframes rotate {
+                0 {
+                    -webkit-transform:rotate(0);
+                } 
+                100% {
+                    -webkit-transform:rotate(360deg);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="Examples">
+            <div id="box1">
+
+            </div>
+        </div>
+        <div class="Examples">
+            <div id="box2">
+
+            </div>
+        </div>
+        <div class="Examples">
+            <div id="box3">
+
+            </div>
+        </div>
+        <div class="Examples">
+            <div id="box4">
+                
+            </div>
+            http://www.w3school.com.cn/cssref/pr_transform.asp
+        </div>
+    </body>
+</html>

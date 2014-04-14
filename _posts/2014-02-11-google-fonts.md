@@ -6,7 +6,7 @@ tags: [Web, CSS]
 ---
 
 Google Fonts API 是 Google 推出的一项免费的字体服务，有600多种（2014.02）字体，只需引用一串 link 样式，之后就和定义普通的网页字体一样，font-family、font-weight、font-style、line-height 等进行定义字体。  
-这是我做的一个 [DEMO]({{ site.url }}/demo/google-fonts/ "Google Fonts API")
+这是我做的一个 [DEMO](/demo/google-fonts/ "Google Fonts API")
 
 <!--break-->
 
@@ -39,4 +39,4 @@ Google Fonts API 是 Google 推出的一项免费的字体服务，有600多种�
 
 4.使用时和普通的网页字体一样。
 
-[DEMO]({{ site.url }}/demo/google-fonts/ "Google Fonts API")
+[DEMO](/demo/google-fonts/ "Google Fonts API")

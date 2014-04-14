@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+        <title>CSS 水平&垂直居中 | 白楊的博客</title>
+        <meta name="author" content="white-poplar." />
+        <meta name="copyright" content="white-poplar." />
+        <meta name="keywords" content="白楊, white-poplar, 白楊的博客, 互联网, web 技术" />
+        <meta name="description" content="真、" />
+        <!-- iframe 方式弹广告 参考:http://en.wikipedia.org/wiki/Framekiller -->
+        <style> html{display: none;} </style>
+        <script>
+           if( self == top ) {
+               document.documentElement.style.display = 'block' ; 
+           } else {
+               top.location = self.location ; 
+           }
+        </script>
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://white-poplar.github.io/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://white-poplar.github.io/ico/apple-touch-icon-114-precomposed.png">
+          <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://white-poplar.github.io/ico/apple-touch-icon-72-precomposed.png">
+                        <link rel="apple-touch-icon-precomposed" href="http://white-poplar.github.io/ico/apple-touch-icon-57-precomposed.png">
+                                       <link rel="shortcut icon" href="http://white-poplar.github.io/ico/favicon.png">
+        <style type="text/css">
+            body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {
+                margin:0;
+                padding:0;
+            }
+            body,button,input,select,textarea {
+                font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+                font:14px/1.6;
+            }
+            body {
+                padding: 20px;
+                width: 800px;
+                margin: 0 auto;
+                color: #FFF;
+            }
+            .Examples {
+                border: dotted #900 1px;
+                height: 400px;
+                margin-bottom: 20px;
+                position: relative;
+            }
+            #box1 {
+                width: 300px;
+                height: 200px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-left: -150px;
+                margin-top: -100px;
+                background-color: #040;
+            }
+            #box2 {
+                position: absolute;
+                margin: auto;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+
+                width: 50%;
+                height: 50%;
+                overflow: auto;
+                background-color: #040;
+            }
+
+            .Center-Container.is-Table { 
+                display: table; 
+                width: 100%;
+                height: 100%;
+            }  
+            .is-Table .Table-Cell {  
+                display: table-cell;  
+                vertical-align: middle;  
+            }  
+            .is-Table .Center-Block {  
+                width: 50%;  
+                height: 50%;
+                margin: 0 auto;
+                background-color: #040;
+            } 
+        </style>
+    </head>
+    <body>
+        <div class="Examples">
+            <div id="box1">
+                负外边距
+            </div>
+        </div>
+        <div class="Examples">
+            <div id="box2">
+                绝对定位居中 (IE8+)
+            </div>
+        </div>
+        <div class="Examples">
+            <div class="Center-Container is-Table">
+                <div class="Table-Cell">
+                    <div class="Center-Block">表格单元格（Table-Cell）</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
