@@ -16,7 +16,7 @@ title : Sitemap
     {% endfor %}
 
     {% for page in site.pages %}
-    {% if page.url == '/page.html' || page.url == '/about.html' %}
+    {% if page.url == '/page.html' | page.url == '/about.html' %}
     <url>
         <loc>{{ site.url }}{{ page.url }}</loc>
         <changefreq>monthly</changefreq>
