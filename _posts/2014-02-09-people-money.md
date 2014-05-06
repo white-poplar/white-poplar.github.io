@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "曾经拥有的巨大财富一夜之间全部失去，是怎样的经历和感受？"
 category: life
 tags: [说给自己听]
