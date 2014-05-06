@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "网页图片加速 => 云存储"
 category: tech
 tags: [云存储, 图片加速]

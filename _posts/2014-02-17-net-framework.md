@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: ".Net Framework  设置"
 category: programming
 tags: [.Net]

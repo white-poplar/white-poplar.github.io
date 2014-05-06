@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "ASP按英文单词截取字符串"
 category: programming
 tags: [ASP]

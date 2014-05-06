@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "Hello GitHub Pages"
 description: "GitHub Pages 搭建。"
 keywords: "markdown,git,github"

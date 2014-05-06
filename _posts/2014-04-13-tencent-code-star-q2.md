@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "Tencent 前端突击队 （第二季）"
 category: programming
 tags: [CSS3]

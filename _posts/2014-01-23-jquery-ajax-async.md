@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "jQuery 中ajax、post 、get的同步"
 category: programming
 tags: [JavaScript, jQuery]

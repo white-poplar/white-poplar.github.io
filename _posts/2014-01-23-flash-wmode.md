@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "网页下拉菜单被flash动画遮住"
 category: programming
 tags: [html]

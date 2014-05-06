@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "js console 命令"
 category: tech
 tags: [JavaScript]

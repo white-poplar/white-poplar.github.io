@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "Google Web Fonts"
 category: tech
 tags: [Web, CSS]
