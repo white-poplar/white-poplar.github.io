@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "C'est La vie."
 category: life
 tags: [说给自己听]
