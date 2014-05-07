@@ -69,7 +69,7 @@
         好吧，上圖其實是 Lin Chi-ling，console 一下，你就知道
 
         -->
-        <title>{{ page.title }} | {{ site.title }}</title>
+        <title>{% if page.url !='/index.html' %}{{ page.title }} | {% endif %}{{ site.name }}</title>
         <meta name="author" content="{{ site.owner.name }}." />
         <meta name="copyright" content="{{ site.owner.name }}." />
         {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% else %}{% if site.keywords %}<meta name="keywords" content="{{ site.keywords }}" />{% endif %}{% endif %}
@@ -118,7 +118,7 @@
             <header class="text-center" role="banner">
                 <div class="pb15">
                     <img src="http://white-poplar.qiniudn.com/img/avatar.jpg" alt="avatar" />
-                    <div class="title"> {{ site.title }} </div>
+                    <div class="title"> {{ site.name }} </div>
                     <div class="description">{{ site.description }}</div>
                 </div>
                 <ul id="nav" class="inline">

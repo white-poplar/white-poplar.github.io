@@ -37,7 +37,7 @@
 <!-- console -->
         <script type="text/javascript">
             try {
-                console.log("\n%c白楊的博客\n%c真、\n","color:#333333;font-size: 16px;font-weight: bold;","color:#686868;padding-left: 60px;");
+                console.log("\n%c{{ site.name }}\n%c真、\n","color:#333333;font-size: 16px;font-weight: bold;","color:#686868;padding-left: 60px;");
                 console.log("等待永遠不能改變");
                 console.log("Gtalk: %cBYH5566[#]gmail.com", "color:red");
                 console.log("个人网站: http://white-poplar.github.io/");
