@@ -57,7 +57,7 @@
            / .___/\____/ .___/_/\__,_/_/      /_.___/_/\____/\__, /  
           /_/          /_/                                  /____/   
 
-        @source: 支付志  「view-source:http://blog.alipay.com/」
+        @source: 支付志
         @design: white-poplar.
         @coding: white-poplar.
 
