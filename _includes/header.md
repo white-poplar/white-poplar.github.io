@@ -101,6 +101,8 @@
         <!--[if lt IE 9]>
             <script src="http://cdn.bootcss.com/html5shiv/3.7/html5shiv.min.js"></script>
         <![endif]-->
+        <!-- <script src="js/jquery-1.11.0.min.js"></script> -->
+        <script src="http://cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/ico/apple-touch-icon-144-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/ico/apple-touch-icon-114-precomposed.png">
           <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.url }}/ico/apple-touch-icon-72-precomposed.png">

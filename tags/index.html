@@ -1,0 +1,36 @@
+---
+layout: default
+title: Tags
+---
+
+                <article id="directory">
+                    <header class="entry-header">
+                        <h3 class="entry-title">Tags</h3>
+                    </header>
+                    <div class="entry-content" id="wordcloud">
+                        {% for tag in site.tags %}
+                        <span data-weight="{% rand(30) %}"><a href="javascript:void(0)" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a></span>
+                        {% endfor %}
+                    </div>
+                    <footer class="entry-meta">
+                    </footer>
+                </article>
+                <script type="text/javascript" src="{{ site.url }}/plugins/awesomeCloud/jquery.awesomeCloud-0.2.min.js"></script>
+                <script>
+                    $(function () {
+                        $("#wordcloud").awesomeCloud({
+                            "size" : {
+                                "grid" : 16,
+                                "normalize" : true
+                            },
+                            "options" : {
+                                "color" : "random-dark",
+                                "rotationRatio" : 0.35,
+                                "printMultiplier" : 3,
+                                "sort" : "random"
+                            },
+                            "font" : "'ff-tisa-web-pro-1','ff-tisa-web-pro-2','Lucida Grande','Helvetica Neue',Helvetica,Arial,'Hiragino Sans GB','Hiragino Sans GB W3','Microsoft YaHei UI','Microsoft YaHei','WenQuanYi Micro Hei',sans-serif",
+                            "shape" : "star"
+                        });
+                    });
+                </script>
