@@ -212,3 +212,9 @@ footer[role="contentinfo"] a:hover,.entry-meta a:hover {
 	margin-bottom: 0;
 	padding-bottom: 0;
 }
+/* Tags */
+#wordcloud {
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+}
