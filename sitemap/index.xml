@@ -17,7 +17,7 @@ title : Sitemap
 
     {% for page in site.pages %}
     {% if page.title %}
-    {% if page.layout != nil %}
+    {% if page.layout != 'nil' %}
     <url>
         <loc>{{ site.url }}{{ page.url | remove: 'index.html' }}</loc>
         <changefreq>monthly</changefreq>
