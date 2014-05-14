@@ -77,16 +77,16 @@
         <!-- Webpage timer begin -->
         <script type="text/javascript">
             try {
-              console.time("Webpage timer");
+                console.time("Webpage timer");
             } catch (e) {};
         </script>
         <!-- iframe 方式弹广告 参考:http://en.wikipedia.org/wiki/Framekiller -->
         <style> html{display: none;} </style>
         <script>
            if ( self == top ) {
-               document.documentElement.style.display = 'block' ; 
+                document.documentElement.style.display = 'block' ; 
            } else {
-               top.location = self.location ; 
+                top.location = self.location ; 
            }
         </script>
         <!-- <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" /> -->
