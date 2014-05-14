@@ -1,11 +1,7 @@
 User-Agent: *
 
-Disallow: /feed
-Disallow: /tags
-Disallow: /log
-Disallow: /pages
-Disallow: /about
-Disallow: /404.html
 Disallow: /resume
-Disallow: /demo*
+Disallow: /demo
 Disallow: /page*
+
+Sitemap: /sitemap
