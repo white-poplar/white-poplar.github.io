@@ -1,5 +1,5 @@
 User-Agent: *
-Disallow: /page*
+
 Disallow: /feed
 Disallow: /sitemap
 Disallow: /tags
@@ -9,3 +9,4 @@ Disallow: /about
 Disallow: /404.html
 Disallow: /resume
 Disallow: /demo*
+Disallow: /page*
