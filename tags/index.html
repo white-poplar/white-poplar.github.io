@@ -10,7 +10,7 @@ title: Tags
                     </header>
                     <div class="entry-content" id="wordcloud">
                         {% for tag in site.tags %}
-                        <span data-weight="{{ tag[0].length }}"><a href="javascript:void(0)" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a></span>
+                        <span data-weight="{{ tag[1].length }}"><a href="javascript:void(0)" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a></span>
                         {% endfor %}
                     </div>
                     <footer class="entry-meta">
