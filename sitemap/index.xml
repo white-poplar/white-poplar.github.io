@@ -16,7 +16,7 @@ title : Sitemap
     {% endfor %}
 
     {% for page in site.pages %}
-
+    {% if page.title %}
     {% if page.layout != nil %}
     <url>
         <loc>{{ site.url }}{{ page.url | remove: 'index.html' }}</loc>
@@ -24,7 +24,7 @@ title : Sitemap
         <priority>0.8</priority>
     </url>
     {% endif %}
-
+    {% endif %}
     {% endfor %}
 
     <url>
