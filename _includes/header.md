@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
     <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
         <!--
 
                             *o$&&&&&&&&&####&&&&&&&&$               
@@ -70,10 +70,10 @@
 
         -->
         <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
-        <meta name="author" content="{{ site.owner.name }}." />
-        <meta name="copyright" content="{{ site.owner.name }}." />
-        {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% else %}{% if site.keywords %}<meta name="keywords" content="{{ site.keywords }}" />{% endif %}{% endif %}
-        {% if page.description %}<meta name="description" content="{{ page.description }}">{% else %}{% if site.description %}<meta name="description" content="{{ site.description }}" />{% endif %}{% endif %}
+        <meta name="author" content="{{ site.owner.name }}.">
+        <meta name="copyright" content="{{ site.owner.name }}.">
+        {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% else %}{% if site.keywords %}<meta name="keywords" content="{{ site.keywords }}">{% endif %}{% endif %}
+        {% if page.description %}<meta name="description" content="{{ page.description }}">{% else %}{% if site.description %}<meta name="description" content="{{ site.description }}">{% endif %}{% endif %}
         <!-- Webpage timer begin -->
         <script type="text/javascript">
             try {
@@ -89,12 +89,12 @@
                 top.location = self.location ; 
            }
         </script>
-        <!-- <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" /> -->
-        <link href="http://cdn.bootcss.com/twitter-bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet" media="screen" />
-        <!-- <link href="css/bootstrap-responsive.min.css" rel="stylesheet" /> -->
-        <link href="http://cdn.bootcss.com/twitter-bootstrap/2.3.2/css/bootstrap-responsive.min.css" rel="stylesheet" />
-        <link href="{{ site.url }}/css/style.css" rel="stylesheet" />
-        <!-- <link rel="stylesheet" href="{{ site.url }}/plugins/nprogress/nprogress.css" /> -->
+        <!-- <link href="css/bootstrap.min.css" rel="stylesheet" media="screen"> -->
+        <link href="http://cdn.bootcss.com/twitter-bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <!-- <link href="css/bootstrap-responsive.min.css" rel="stylesheet"> -->
+        <link href="http://cdn.bootcss.com/twitter-bootstrap/2.3.2/css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="{{ site.url }}/css/style.css" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="{{ site.url }}/plugins/nprogress/nprogress.css"> -->
         <link href="http://cdn.bootcss.com/nprogress/0.1.2/nprogress.min.css" rel="stylesheet">
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!-- <script src="js/html5shiv.min.js"></script> -->
@@ -112,14 +112,14 @@
     <body>
         <div class="container">
             <div id="QRcode">
-                <img src="http://white-poplar.qiniudn.com/img/qrcode.png" alt="Qrcode" />
+                <img src="http://white-poplar.qiniudn.com/img/qrcode.png" alt="Qrcode">
                 <br/>
                 手机扫描二维码快速访问
             </div>
 <!-- header -->
             <header class="text-center" role="banner">
                 <div class="pb15">
-                    <img src="http://white-poplar.qiniudn.com/img/avatar.jpg" alt="avatar" />
+                    <img src="http://white-poplar.qiniudn.com/img/avatar.jpg" alt="avatar">
                     <div class="title"> {{ site.name }} </div>
                     <div class="description">{{ site.description }}</div>
                 </div>
