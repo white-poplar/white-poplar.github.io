@@ -60,17 +60,17 @@ header[role="banner"] img {
 	vertical-align: middle;
 	border-radius: 50%;
 	padding-bottom: 15px;
-	-webkit-transition:.8s;
-	-moz-transition:.8s;
-	-o-transition:.8s;
-	-ms-transition:.8s;
+	-webkit-transition: .8s;
+	   -moz-transition: .8s;
+	     -o-transition: .8s;
+	    -ms-transition: .8s;
 }
 header[role="banner"] img:hover{
 	transform: rotate(360deg);
 	-webkit-transform: rotate(360deg);
-	-moz-transform: rotate(360deg);
-	-o-transform: rotate(360deg);
-	-ms-transform: rotate(360deg);
+	   -moz-transform: rotate(360deg);
+	    -ms-transform: rotate(360deg);
+	     -o-transform: rotate(360deg);
 	opacity: 0.7;
 }
 header[role="banner"] .title {
