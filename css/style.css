@@ -219,4 +219,6 @@ footer[role="contentinfo"] a:hover,.entry-meta a:hover {
 /* IE7 pre => code */
 pre code {
 	white-space: pre-wrap;
+	*white-space: pre;
+	*word-wrap: break-word;
 }
