@@ -7,7 +7,7 @@ tags: [说给自己听, 理想主义]
 
 ![至尊宝](http://white-poplar.qiniudn.com/posts/img/zzb.png)
 
-> 文： [连岳微信](http://mp.weixin.qq.com/s?__biz=MjM5NDU0Mjk2MQ==&mid=202901242&idx=1&sn=187e86350564cb4755996aeb04b44f93&3rd=MzA3MDU4NTYzMw==&scene=6#rd) 。
+> 文： [连岳微信](http://mp.weixin.qq.com/s?__biz=MjM5NDU0Mjk2MQ==&mid=202901242&idx=1&sn=187e86350564cb4755996aeb04b44f93&3rd=MzA3MDU4NTYzMw==&scene=6#rd) 
 <!--break-->
 前天[《“冷酷”的价值》](http://mp.weixin.qq.com/s?__biz=MjM5NDU0Mjk2MQ==&mid=202849212&idx=1&sn=365e637ddf0797189aedabd56b050d11&3rd=MzA3MDU4NTYzMw==&scene=6#rd)，有些朋友留言，很疑惑：你说的和大多数的想法不同呀？
 
@@ -31,6 +31,6 @@ Enter through the narrow gate. For wide isthe gate and broad is the road that le
 
 你至少得进一次窄门。这像出生一样必要。
 
-> 文： [连岳微信](http://mp.weixin.qq.com/s?__biz=MjM5NDU0Mjk2MQ==&mid=202901242&idx=1&sn=187e86350564cb4755996aeb04b44f93&3rd=MzA3MDU4NTYzMw==&scene=6#rd) 
+文章来源： [连岳微信](http://mp.weixin.qq.com/s?__biz=MjM5NDU0Mjk2MQ==&mid=202901242&idx=1&sn=187e86350564cb4755996aeb04b44f93&3rd=MzA3MDU4NTYzMw==&scene=6#rd) 
 
 >配图来源 豆瓣
