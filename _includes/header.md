@@ -83,11 +83,11 @@
         <!-- iframe 方式弹广告 参考:http://en.wikipedia.org/wiki/Framekiller -->
         <style> html{display: none;} </style>
         <script>
-           if ( self == top ) {
+            if ( self == top ) {
                 document.documentElement.style.display = 'block' ; 
-           } else {
+            } else {
                 top.location = self.location ; 
-           }
+            }
         </script>
         <!-- <link href="css/bootstrap.min.css" rel="stylesheet" media="screen"> -->
         <link href="http://cdn.bootcss.com/twitter-bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -104,6 +104,7 @@
         <!-- <script src="js/jquery-1.11.0.min.js"></script> -->
         <script src="http://cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/ico/apple-touch-icon-114-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.url }}/ico/apple-touch-icon-72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/ico/apple-touch-icon-57-precomposed.png">
         <link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}/ico/favicon.png">
