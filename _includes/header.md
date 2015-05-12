@@ -104,10 +104,9 @@
         <!-- <script src="js/jquery-1.11.0.min.js"></script> -->
         <script src="http://cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/ico/apple-touch-icon-144-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/ico/apple-touch-icon-114-precomposed.png">
-          <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.url }}/ico/apple-touch-icon-72-precomposed.png">
-                        <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/ico/apple-touch-icon-57-precomposed.png">
-                                       <link rel="shortcut icon" href="{{ site.url }}/ico/favicon.png" type="image/x-icon">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.url }}/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/ico/apple-touch-icon-57-precomposed.png">
+        <link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}/ico/favicon.png">
     </head>
     <body>
         <div class="container">
