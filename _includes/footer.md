@@ -1,6 +1,6 @@
             </div>
 <!-- footer -->
-            <footer class="clearfix visible-desktop" role="contentinfo">
+            <footer class="clearfix visible-desktop">
                 <div class="pull-right">
                     &copy; 2013 - <script> document.write(new Date().getFullYear());</script> <a href="{{ site.url }}" title="{{ site.owner.nickname }}" >{{ site.owner.name }}</a>.
                 </div>
