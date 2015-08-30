@@ -140,16 +140,16 @@ footer.entry-meta {
 	float: right;
 	width: 49%;
 }
-footer[role="contentinfo"] {
+footer {
 	border-top: 1px solid #EDEDED;
 	font-size: 12px;
 	margin-top: 20px;
 	padding: 25px 0;
 }
-footer[role="contentinfo"] a ,.entry-meta a{
+footer a ,.entry-meta a{
 	color: #686868;
 }
-footer[role="contentinfo"] a:hover,.entry-meta a:hover {
+footer a:hover,.entry-meta a:hover {
 	color: #21759B;
 }
 .directoryList {
