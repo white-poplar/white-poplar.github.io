@@ -49,10 +49,10 @@ blockquote p {
 		margin-bottom: 0px;
 	}
 }
-header[role="banner"] {
+header {
 	padding: 30px 0;
 }
-header[role="banner"] img {
+header img {
 	height: 120px;
 	width: 120px;
 	vertical-align: middle;
@@ -63,7 +63,7 @@ header[role="banner"] img {
 	     -o-transition: .8s;
 	    -ms-transition: .8s;
 }
-header[role="banner"] img:hover{
+header img:hover{
 	transform: rotate(360deg);
 	-webkit-transform: rotate(360deg);
 	   -moz-transform: rotate(360deg);
@@ -71,7 +71,7 @@ header[role="banner"] img:hover{
 	     -o-transform: rotate(360deg);
 	opacity: 0.7;
 }
-header[role="banner"] .title {
+header .title {
 	letter-spacing: 0.1rem;
 	font-weight: 300;
 	font-size: 25px;
@@ -79,7 +79,7 @@ header[role="banner"] .title {
 	line-height: 30px;
 	vertical-align: middle;
 }
-header[role="banner"] .description {
+header .description {
 	color: #686868;
 	width: 115px;
 	margin: 0 auto;
