@@ -117,7 +117,7 @@
                 手机扫描二维码快速访问
             </div>
 <!-- header -->
-            <header class="text-center">
+            <header class="header text-center">
                 <div class="pb15">
                     <img src="http://white-poplar.qiniudn.com/img/avatar.jpg" alt="avatar">
                     <div class="title"> {{ site.name }} </div>
