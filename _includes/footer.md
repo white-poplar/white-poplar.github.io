@@ -5,12 +5,12 @@
                     &copy; 2013 - <script> document.write(new Date().getFullYear());</script> <a href="{{ site.url }}" title="{{ site.owner.nickname }}" >{{ site.owner.name }}</a>.
                 </div>
                 <div>
-                    Hosted by <a href="pages.github.com" title="GitHub Pages" >GitHub Pages</a> | UI Designed by <a href="{{ site.url }}" title="{{ site.owner.nickname }}">{{ site.owner.name }}</a>. | 托管商：<a href="github.com" title="GitHub">GitHub</a> | 图片存储：<a href="www.qiniu.com" title="七牛云存储">七牛云</a>
+                    Hosted by <a href="//pages.github.com" title="GitHub Pages" >GitHub Pages</a> | UI Designed by <a href="{{ site.url }}" title="{{ site.owner.nickname }}">{{ site.owner.name }}</a>. | 托管商：<a href="//github.com" title="GitHub">GitHub</a> | 图片存储：<a href="//www.qiniu.com" title="七牛云存储">七牛云</a>
                 </div>
             </footer>
             <footer class="clearfix hidden-desktop text-center">
                 <div>
-                    Hosted by <a href="pages.github.com" title="GitHub Pages" >GitHub Pages</a> | UI Designed by <a href="{{ site.url }}" title="{{ site.owner.nickname }}">{{ site.owner.name }}</a>. | 托管商：<a href="github.com" title="GitHub">GitHub</a> | 图片存储：<a href="www.qiniu.com" title="七牛云存储">七牛云</a>
+                    Hosted by <a href="//pages.github.com" title="GitHub Pages" >GitHub Pages</a> | UI Designed by <a href="{{ site.url }}" title="{{ site.owner.nickname }}">{{ site.owner.name }}</a>. | 托管商：<a href="//github.com" title="GitHub">GitHub</a> | 图片存储：<a href="//www.qiniu.com" title="七牛云存储">七牛云</a>
                 </div>
                 <div>
                     &copy; 2013 - <script> document.write(new Date().getFullYear());</script> <a href="{{ site.url }}" title="{{ site.owner.nickname }}" >{{ site.owner.name }}</a>.
