@@ -38,7 +38,7 @@
                 console.log("\n%c{{ site.name }}\n%c真、\n","color:#333333;font-size: 16px;font-weight: bold;","color:#686868;padding-left: 60px;");
                 console.log("等待永遠不能改變");
                 console.log("Gtalk: %cBYH5566[#]gmail.com", "color:red");
-                console.log("个人网站: https://white-poplar.github.io/");
+                console.log("个人网站: //white-poplar.github.io/");
                 console.log("%c", "padding:218px 150px;line-height:460px;background:url('//white-poplar.qiniudn.com/img/Lin+Chi-ling.jpg') no-repeat;");
             } catch (e) {};
         </script>
