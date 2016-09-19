@@ -4,7 +4,7 @@ permalink: /:year/:month/:day/:title
 
 auto: true
 # 这个解析引擎更友好的支持中文
-markdown: rdiscount
+markdown: kramdown
 
 # 每一页显示的文章数
 paginate: 9
