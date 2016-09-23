@@ -128,6 +128,9 @@ footer.entry-meta {
     font-size: 12px;
     margin-top: 18px;
 }
+footer.entry-meta.pt10 {
+    padding-top: 12px;
+}
 .nav-single {
     width: 90%;
     margin: 0 auto;
@@ -153,7 +156,6 @@ footer a:hover,.entry-meta a:hover {
     color: #21759B;
 }
 .directoryList {
-    font-size: 15px;
     color: #686868;
 }
 .directoryList li {
