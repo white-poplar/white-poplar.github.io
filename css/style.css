@@ -129,7 +129,7 @@ footer.entry-meta {
     margin-top: 18px;
 }
 footer.entry-meta.pt10 {
-    padding-top: 12px;
+    padding-top: 0;
 }
 .nav-single {
     width: 90%;
