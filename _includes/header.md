@@ -125,8 +125,8 @@
                 </div>
                 <ul id="nav" class="inline">
                     <li><a href="{{ site.url }}">首页</a></li>
-                    <li><a href="{{ site.url }}/pages">目录</a></li>
-                    <li><a href="{{ site.url }}/about">关于我</a></li>
+                    <li><a href="{{ site.url }}/pages/index">目录</a></li>
+                    <li><a href="{{ site.url }}/about/index">关于我</a></li>
                 </ul>
                 <nav class="main-navigation"> </nav>
             </header>
