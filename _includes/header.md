@@ -112,14 +112,14 @@
     <body>
         <div class="container">
             <div id="QRcode">
-                <img src="//white-poplar.qiniudn.com/img/qrcode.png" alt="Qrcode">
+                <img src="http://white-poplar.qiniudn.com/img/qrcode.png" alt="Qrcode">
                 <br/>
                 手机扫描二维码快速访问
             </div>
 <!-- header -->
             <header class="header text-center">
                 <div class="pb15">
-                    <img src="//white-poplar.qiniudn.com/img/avatar.jpg" alt="avatar">
+                    <img src="http://white-poplar.qiniudn.com/img/avatar.jpg" alt="avatar">
                     <div class="title"> {{ site.name }} </div>
                     <div class="description">{{ site.description }}</div>
                 </div>
