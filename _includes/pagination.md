@@ -3,9 +3,9 @@
                     <ul>
                         {% if paginator.previous_page %}
                             {% if paginator.previous_page == 1 %}
-                        <li><a href="/" title="前一页">&laquo;</a></li>
+                        <li><a href="{{ site.url }}/" title="前一页">&laquo;</a></li>
                             {% else %}
-                        <li><a href="/page{{paginator.previous_page}}" title="前一页">&laquo;</a></li>
+                        <li><a href="{{ site.url }}/page{{paginator.previous_page}}" title="前一页">&laquo;</a></li>
                             {% endif %}
                         {% else %}
                         <li class="disabled"><a href="#" title="前一页">&laquo;</a></li>
@@ -13,17 +13,17 @@
                         {% if paginator.page == 1 %}
                         <li class="disabled"><a href="#">1</a></li>
                         {% else %}
-                        <li><a href="/">1</a></li>
+                        <li><a href="{{ site.url }}/">1</a></li>
                         {% endif %}
                         {% for count in (2..paginator.total_pages) limit:site.pagelen %}
                             {% if count == paginator.page %}
                         <li class="disabled"><a href="#">{{count}}</a></li>
                             {% else %}
-                        <li><a href="{/page{{count}}">{{count}}</a></li>
+                        <li><a href="{{ site.url }}/page{{count}}">{{count}}</a></li>
                             {% endif %}
                         {% endfor %}
                         {% if paginator.next_page %}
-                        <li><a href="{/page{{paginator.next_page}}" title="后一页">&raquo;</a></li>
+                        <li><a href="{{ site.url }}/page{{paginator.next_page}}" title="后一页">&raquo;</a></li>
                         {% else %}
                         <li class="disabled"><a href="#" title="后一页">&raquo;</a></li>
                         {% endif %}
