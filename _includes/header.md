@@ -112,21 +112,21 @@
     <body>
         <div class="container">
             <div id="QRcode">
-                <img src="http://white-poplar.qiniudn.com/img/qrcode.png" alt="Qrcode">
+                <img src="{{ site.fileUrl }}/img/qrcode.png" alt="Qrcode">
                 <br/>
                 手机扫描二维码快速访问
             </div>
 <!-- header -->
             <header class="header text-center">
                 <div class="pb15">
-                    <img src="http://white-poplar.qiniudn.com/img/avatar.jpg" alt="avatar">
+                    <img src="{{ site.fileUrl }}/img/avatar.jpg" alt="avatar">
                     <div class="title"> {{ site.name }} </div>
                     <div class="description">{{ site.description }}</div>
                 </div>
                 <ul id="nav" class="inline">
                     <li><a href="{{ site.url }}">首页</a></li>
-                    <li><a href="{{ site.url }}/pages/index">目录</a></li>
-                    <li><a href="{{ site.url }}/about/index">关于我</a></li>
+                    <li><a href="{{ site.url }}/pages">目录</a></li>
+                    <li><a href="{{ site.url }}/about">关于我</a></li>
                 </ul>
                 <nav class="main-navigation"> </nav>
             </header>
