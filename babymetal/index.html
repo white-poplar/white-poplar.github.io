@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <title>BABYMETAL</title>
+        <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="//cdn.bootcss.com/fullPage.js/2.9.4/jquery.fullpage.min.css" rel="stylesheet">
+        <link rel="shortcut icon" href="http://white-poplar.qiniudn.com/babymetal/images/favicon.ico">
+        <style>
+            body {
+                background-image: url(http://white-poplar.qiniudn.com/babymetal/images/bgp.jpg);
+                background-repeat: repeat;
+            }
+
+            #fp-nav ul li { width: 27px; height: 27px; margin-top: 7px; overflow: hidden;}
+            #fp-nav ul li a { display: block; height: 27px; line-height: 27px; background: url(images/dot.png) right -34px no-repeat; color: #fff; text-align: right; text-shadow: 1px 1px 0px #333; text-decoration: none; overflow: hidden;}
+            #fp-nav ul li a span { display: none;}
+            /*#fp-nav ul li a.active { background-position: right 0;}*/
+            #fp-nav ul li a.active { background: url(http://white-poplar.qiniudn.com/babymetal/images/favicon.png?imageView2/0/w/27) right 0 no-repeat;}
+
+            .metal {
+                position: absolute;
+                z-index: 999;
+                top:2%;
+                left: 5%;
+            }
+            .metal-text {
+                font-family: "游ゴシック体", "Yu Gothic", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
+                font-size: 25px;
+                font-weight: bold;
+                color: #fff;    
+                width: 40px;
+                word-wrap: break-word;
+                position: absolute;
+                left: 90%; top: 5%; 
+                opacity: 0; transition: all 1s;
+            }
+            .active .metal-text { left: 10%; opacity: 1; transition-delay: 1s;}
+            .complete.metal-text { left: 10%; opacity: 1;}
+
+
+            .section {
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position:center;
+                text-align:center;
+            }
+            #section0 { 
+                background-image: url(http://white-poplar.qiniudn.com/babymetal/images/BM.jpg);
+                background-attachment: fixed;
+            }
+            #section1 { 
+                background-image: url(http://white-poplar.qiniudn.com/babymetal/images/BM1.jpg);
+            }
+            #section2 { 
+                background-image: url(http://white-poplar.qiniudn.com/babymetal/images/BM2.jpg);
+            }
+            #section3 { 
+                background-image: url(http://white-poplar.qiniudn.com/babymetal/images/BM3.jpg);
+            }
+            #section4 { 
+                background-image: url(http://white-poplar.qiniudn.com/babymetal/images/BM4.jpg);
+            }
+            #section5 { 
+                background-image: url(http://white-poplar.qiniudn.com/babymetal/images/BM5.jpg);
+            }
+            #section6 { 
+                background-image: url(http://white-poplar.qiniudn.com/babymetal/images/BM6.jpg);
+            }
+            #section7 { 
+                background-image: url(http://white-poplar.qiniudn.com/babymetal/images/BM7.jpg);
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="metal"><img src="http://white-poplar.qiniudn.com/babymetal/images/favicon.png" alt="METAL"></div>
+        <div id="fullpage">
+            <div class="section" id="section0"></div>
+            <div class="section" id="section1"></div>
+            <div class="section" id="section2"></div>
+            <div class="section" id="section3"></div>
+            <div class="section" id="section4"></div>
+            <div class="section" id="section5"></div>
+            <div class="section" id="section6"></div>
+            <div class="section" id="section7">
+                <p class="metal-text">諸君 &nbsp; 首の準備はできているか！？</p>
+            </div>
+        </div>
+        <script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+        <script src="//cdn.bootcss.com/fullPage.js/2.9.4/jquery.fullpage.min.js"></script>
+        <script>
+            $(function(){
+                let show_end = false;
+                $('#fullpage').fullpage({
+                    'verticalCentered':false,
+                    'anchors': ['page0', 'page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7'],
+                    'navigation':true,
+                    'css3':false,
+                    'afterLoad': function(anchorLink, index){
+                        if(!show_end && index == $("#fullpage > div").length){
+                            show_end = true;
+                            $(".metal-text").addClass("complete");
+                        }
+                    }
+                });
+            });
+        </script>
+    </body>
+
+</html>
