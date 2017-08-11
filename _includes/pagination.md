@@ -10,9 +10,9 @@
                             {% if page == paginator.page %}
                               <li class="disabled"><a href="#">{{page}}</a></li>
                             {% elsif page == 1 %}
-                              <li><a href="{{ '/pages/' | prepend: site.url | replace: '//', '/' }}">{{page}}</a></li>
+                              <li><a href="{{ '/pages/' | prepend: site.url }}">{{page}}</a></li>
                             {% else %}
-                              <li><a href="{{ site.paginate_path | prepend: site.url | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+                              <li><a href="{{ site.paginate_path | prepend: site.url | replace: ':num', page }}">{{ page }}</a></li>
                             {% endif %}
                         {% endfor %}
                         {% if paginator.next_page %}
