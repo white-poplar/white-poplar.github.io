@@ -10,11 +10,12 @@ title: 目录
                     <div class="entry-content">
                         <ul class="unstyled directoryList">
                             {% for post in site.posts %}
-                            <li><span>{{ post.date | date:"%d - %m - %Y" }}</span><a title="{{ post.title }}" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+                            <li><span>{{ post.date | date:"%Y-%m-%d" }}</span><a title="{{ post.title }}" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
                             {% endfor %}
                         </ul>
                     </div>
                     <footer class="entry-meta pt10">
                     </footer>
                 </article>
-                <div>好像 Jekyll 只能在 index.html 中使用 Paginator 分页变量，so 你懂的！</div>
+                <!-- <div>好像 Jekyll 只能在 index.html 中使用 Paginator 分页变量，so 你懂的！</div> -->
+{% include pagination.md%}
