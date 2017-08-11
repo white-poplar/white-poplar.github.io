@@ -7,9 +7,9 @@ auto: true
 markdown: kramdown
 
 # 每一页显示的文章数
-paginate: 9
+paginate: 18
 
-paginate_path: "list/page:num"  
+paginate_path: "pages/:num"  
 
 # 页码个数 x + 1 = 5 
 pagelen: 4
