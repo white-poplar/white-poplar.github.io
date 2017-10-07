@@ -20,6 +20,7 @@ MS-SQL Server 存储过程参数可以传 table ？
 		[_Price] [MONEY] NULL
 	)
 	GO
+
 *数据库 -> 可编程性 -> 类型 -> 用户定义表类型*
 
 2.创建存储过程
@@ -48,17 +49,19 @@ MS-SQL Server 存储过程参数可以传 table ？
 
 	END
 	GO
+
 *返回重复/空的记录*
 
 3.程序调用存储过程(.Net)
 
 	SqlParameter[] parameters = {
-								 new SqlParameter("@uuid",'00000000-0000-0000-0000-000000000000'),
-								 new SqlParameter("@paratable",dt),
+		 new SqlParameter("@uuid",'00000000-0000-0000-0000-000000000000'),
+		 new SqlParameter("@paratable",dt),
 	};
 	parameters[1].SqlDbType = SqlDbType.Structured;
 	parameters[1].TypeName = "_InfoType";
 	DataTable repeatDt = DbHelperSQL.ExecuteDataSet("proc_material_import", parameters).GetFirstDataTable();
+
 *TypeName 为创建的表值类型*
 
 - 定义表值类型时最好全部设为可空，因为 excel 内容不可控（多么痛的领悟）
