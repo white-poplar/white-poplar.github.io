@@ -25,9 +25,9 @@ MS-SQL Server 存储过程参数可以传 table ？
 
 2.创建存储过程
 
-	ALTER PROCEDURE proc_material_import (
-		@uuid			UNIQUEIDENTIFIER,
-		@paratable as   InfoType READONLY
+	ALTER PROCEDURE proc_Info_import (
+		@uuid				UNIQUEIDENTIFIER,
+		@paratable		as	_InfoType	READONLY
 	)
 	AS 
 	BEGIN
@@ -60,7 +60,7 @@ MS-SQL Server 存储过程参数可以传 table ？
 	};
 	parameters[1].SqlDbType = SqlDbType.Structured;
 	parameters[1].TypeName = "_InfoType";
-	DataTable repeatDt = DbHelperSQL.ExecuteDataSet("proc_material_import", parameters).GetFirstDataTable();
+	DataTable repeatDt = DbHelperSQL.ExecuteDataSet("proc_Info_import", parameters).GetFirstDataTable();
 
 *TypeName 为创建的表值类型*
 
@@ -68,5 +68,6 @@ MS-SQL Server 存储过程参数可以传 table ？
 - 最好一次创建好表值类型，因为修改表值类型敲麻烦
 - excel 转 table 时最好判断下是否有重新记录，可使用 `Linq Group By` 判断
 - excel 转为 table 后需与表值类型一致，可使用 `dt.Columns["名称"].ColumnName = "_Name"` 替换列名
+- MySQL 好像没有表值类型
 
 OK，搞定！
