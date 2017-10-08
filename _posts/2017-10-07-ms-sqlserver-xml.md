@@ -5,7 +5,7 @@ category: tech
 tags: [Web, 数据库]
 ---
 
-最近遇到需要根据批量选择的数据（N个字段）进行数据操作的问题，最初是通过字符串拼接（A字段1,A字段2,A字段3#A字段1,B字段2,B字段3#C字段1,C字段2,C字段3）传入，存储过程进行分割实现。偶然听到同事说 MS-SQL Server XML 类型可以更方便处理此需求，于是进行了 XML 的初使用...
+最近遇到需要根据批量选择的数据（N个字段）进行数据操作的问题，最初是通过字符串拼接（A字段1,A字段2,A字段3#B字段1,B字段2,B字段3#C字段1,C字段2,C字段3）传入，存储过程进行分割实现。偶然听到同事说 MS-SQL Server XML 类型可以更方便处理此需求，于是进行了 XML 的初使用...
 
 <!--break-->
 
@@ -26,14 +26,14 @@ tags: [Web, 数据库]
 		</Item>
 	</Root> '
 
-	*查询 XML 数据*
+	--查询 XML 数据
 	SELECT TOP 5
 	S.value('(MaterialId)[1]','int') MaterialId, 
 	S.value('(Number)[1]','int') Number,
 	S.value('(WareHouseId)[1]','int') WareHouseId 
 	FROM  @xml.nodes('/Root/Item') T(S)
 	
-	*方便的条件查询 XML 数据*
+	--方便的条件查询 XML 数据
 	SELECT TOP 5 * FROM (
 	SELECT
 	S.value('(MaterialId)[1]','int') MaterialId, 
@@ -47,8 +47,8 @@ tags: [Web, 数据库]
 2.创建存储过程
 
 	ALTER PROCEDURE proc_use_material(
-		@MaterialData			XML,    --物品Id,数量,仓库Id
-		@UUID					UNIQUEIDENTIFIER
+		@MaterialData	XML,	--物品Id,数量,仓库Id
+		@UUID			UNIQUEIDENTIFIER
 	)
 	AS 
 	BEGIN
@@ -91,7 +91,7 @@ tags: [Web, 数据库]
 
 *定义存储过程包含 XML 参数*
 *加了事务和异常处理*
-*如果有多步数据操作可把 XML 查出转为表变量 `DECLARE @temp_MaterialData TABLE`（有问题吗？）进行操作*
+*如果有多步数据操作，可查询 XML 后转为表变量 `DECLARE @temp_MaterialData TABLE`（会出现什么问题吗？）进行操作*
 
 3.程序调用存储过程(.Net)
 
@@ -121,13 +121,13 @@ tags: [Web, 数据库]
 
 - 应该是 MS-SQL Server XML 最基础的操作（雾
 
->  
+>  --
 > 附字符串拼接实现，可忽略（逃：
-> 
+> --
 
 	ALTER PROCEDURE proc_use_material(
-		@strMaterialData		NVARCHAR(MAX) = '',
-		@UUID					UNIQUEIDENTIFIER
+		@strMaterialData	NVARCHAR(MAX) = '',
+		@UUID				UNIQUEIDENTIFIER
 	)
 	AS
 	BEGIN
@@ -180,6 +180,6 @@ tags: [Web, 数据库]
 	
 *具体参数分隔可自行网上查找，这里的简直不忍直视*
 
->  
-> 字符串拼接完，可忽略（逃：
-> 
+> --
+> 字符串拼接结束，可忽略（逃：
+> --
