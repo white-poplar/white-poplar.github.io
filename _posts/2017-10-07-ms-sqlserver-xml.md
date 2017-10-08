@@ -122,7 +122,7 @@ tags: [Web, 数据库]
 - 应该是 MS-SQL Server XML 最基础的操作（雾
 
 
-	--附字符串拼接实现，可忽略（逃：
+> 附字符串拼接实现，可忽略（逃：
 
 	ALTER PROCEDURE proc_use_material(
 		@strMaterialData	NVARCHAR(MAX) = '',
@@ -151,15 +151,15 @@ tags: [Web, 数据库]
 				WHILE(CHARINDEX(@split,@strMaterialData)<>0)
 				BEGIN
 					SET @strMaterialDataItem = SUBSTRING(@strMaterialData,1,CHARINDEX(@split,@strMaterialData)-1);
-					
+
 					SET @MaterialId = CONVERT(BIGINT,LEFT(@strMaterialDataItem,charindex(',',@strMaterialDataItem,1)-1));
 					SET @Number = CONVERT(BIGINT,LEFT(SUBSTRING(@strMaterialDataItem,charindex(',',@strMaterialDataItem,1)+1,len(@strMaterialDataItem)),CHARINDEX(',',SUBSTRING(@strMaterialDataItem,charindex(',',@strMaterialDataItem,1)+1,len(@strMaterialDataItem)),1)-1));
 					SET @WareHouseId = CONVERT(INT,SUBSTRING(SUBSTRING(@strMaterialDataItem,charindex(',',@strMaterialDataItem,1)+1,len(@strMaterialDataItem)),charindex(',',SUBSTRING(@strMaterialDataItem,charindex(',',@strMaterialDataItem,1)+1,len(@strMaterialDataItem)),1)+1,len(@strMaterialDataItem)));
-					
+
 					BEGIN
 						--GO
 					END
-					
+
 					SET @strMaterialData = STUFF(@strMaterialData,1,CHARINDEX(@split,@strMaterialData),'');
 				END
 
@@ -176,5 +176,7 @@ tags: [Web, 数据库]
 		END CATCH
 	END
 	GO
-	
-	--具体参数分隔可自行网上查找，这里的简直不忍直视
+
+- 具体参数分隔可自行网上查找，这里的简直不忍直视
+
+> 字符串拼接实现结束，可忽略（逃：
