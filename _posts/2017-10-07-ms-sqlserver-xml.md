@@ -46,7 +46,7 @@ tags: [Web, 数据库]
 
 2.创建存储过程
 
-	ALTER PROCEDURE proc_add_enrol_material(
+	ALTER PROCEDURE proc_use_material(
 		@MaterialData			XML,    --物品Id,数量,仓库Id
 		@UUID					UNIQUEIDENTIFIER
 	)
@@ -121,3 +121,59 @@ tags: [Web, 数据库]
 
 - 应该是 MS-SQL Server XML 最基础的操作（雾
 
+> 附字符串拼接（逃：
+
+	ALTER PROCEDURE proc_use_material(
+		@strMaterialData		NVARCHAR(MAX) = '',
+		@UUID					UNIQUEIDENTIFIER
+	)
+	AS
+	BEGIN
+		SET NOCOUNT ON;
+
+		IF @strMaterialData <= ''
+			RETURN 0;
+
+		--分隔符
+		IF @strMaterialData <> ''
+			SET  @strMaterialData = @strMaterialData + '&' --物品Id,数量,仓库Id&物品Id,数量,仓库Id&
+
+		BEGIN TRY
+			BEGIN TRANSACTION
+
+				-- @strMaterialData
+				DECLARE @split VARCHAR(1) = '&';
+				DECLARE @strMaterialDataItem NVARCHAR(200); --物品Id,数量,仓库Id
+
+				DECLARE @MaterialId BIGINT,@Number INT,@WareHouseId BIGINT;
+
+				WHILE(CHARINDEX(@split,@strMaterialData)<>0)
+				BEGIN
+					SET @strMaterialDataItem = SUBSTRING(@strMaterialData,1,CHARINDEX(@split,@strMaterialData)-1);
+					
+					SET @MaterialId = CONVERT(BIGINT,LEFT(@strMaterialDataItem,charindex(',',@strMaterialDataItem,1)-1));
+					SET @Number = CONVERT(BIGINT,LEFT(SUBSTRING(@strMaterialDataItem,charindex(',',@strMaterialDataItem,1)+1,len(@strMaterialDataItem)),CHARINDEX(',',SUBSTRING(@strMaterialDataItem,charindex(',',@strMaterialDataItem,1)+1,len(@strMaterialDataItem)),1)-1));
+					SET @WareHouseId = CONVERT(INT,SUBSTRING(SUBSTRING(@strMaterialDataItem,charindex(',',@strMaterialDataItem,1)+1,len(@strMaterialDataItem)),charindex(',',SUBSTRING(@strMaterialDataItem,charindex(',',@strMaterialDataItem,1)+1,len(@strMaterialDataItem)),1)+1,len(@strMaterialDataItem)));
+					
+					BEGIN
+						--GO
+					END
+					
+					SET @strMaterialData = STUFF(@strMaterialData,1,CHARINDEX(@split,@strMaterialData),'');
+				END
+
+			COMMIT TRANSACTION
+			RETURN 1;
+		END TRY
+		--CATCH
+		BEGIN CATCH
+			ROLLBACK TRANSACTION
+
+			--ProcError
+
+			RETURN -9;
+		END CATCH
+	END
+	GO
+	
+*具体参数分隔可自行网上查找，这里的简直不忍直视*
