@@ -48,7 +48,7 @@ tags: [Web, 数据库]
 
 	ALTER PROCEDURE proc_use_material(
 		@MaterialData	XML,	--物品Id,数量,仓库Id
-		@UUID			UNIQUEIDENTIFIER
+		@UUID	UNIQUEIDENTIFIER
 	)
 	AS 
 	BEGIN
@@ -121,13 +121,13 @@ tags: [Web, 数据库]
 
 - 应该是 MS-SQL Server XML 最基础的操作（雾
 
->  --
+> ****
 > 附字符串拼接实现，可忽略（逃：
-> --
+> ****
 
 	ALTER PROCEDURE proc_use_material(
 		@strMaterialData	NVARCHAR(MAX) = '',
-		@UUID				UNIQUEIDENTIFIER
+		@UUID	UNIQUEIDENTIFIER
 	)
 	AS
 	BEGIN
@@ -180,6 +180,6 @@ tags: [Web, 数据库]
 	
 *具体参数分隔可自行网上查找，这里的简直不忍直视*
 
-> --
+> ****
 > 字符串拼接结束，可忽略（逃：
-> --
+> ****
