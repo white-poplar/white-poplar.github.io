@@ -112,14 +112,14 @@
     <body>
         <div class="container">
             <div id="QRcode">
-                <img src="{{ site.fileUrl }}/img/qrcode.png" alt="Qrcode">
+                <img src="{{ site.url }}/img/qrcode.png" alt="Qrcode">
                 <br/>
                 手机扫描二维码快速访问
             </div>
 <!-- header -->
             <header class="header text-center">
                 <div class="pb15">
-                    <img src="{{ site.fileUrl }}/img/avatar.jpg" alt="avatar">
+                    <img src="{{ site.url }}/img/avatar.jpg" alt="avatar">
                     <div class="title"> {{ site.name }} </div>
                     <div class="description">{{ site.description }}</div>
                 </div>
