@@ -13,7 +13,7 @@
                     Hosted by <a href="//pages.github.com" title="GitHub Pages" >GitHub Pages</a> | UI Designed by <a href="{{ site.url }}" title="{{ site.owner.nickname }}">{{ site.owner.name }}</a>. | 托管商：<a href="//github.com" title="GitHub">GitHub</a> | 图片存储：<a href="//www.qiniu.com" title="七牛云存储">七牛云</a>
                 </div>
                 <div>
-                    &copy; 2013 - <script> document.write(new Date().getFullYear());</script> <a href="{{ site.url }}" title="{{ site.owner.nickname }}" >{{ site.owner.name }}</a>.
+                    &copy; 2014 - <script> document.write(new Date().getFullYear());</script> <a href="{{ site.url }}" title="{{ site.owner.nickname }}" >{{ site.owner.name }}</a>.
                 </div>
             </footer>
 <!-- /footer -->
@@ -55,6 +55,17 @@
 
         </script>
 <!-- /Google Analytics -->
+<!-- 百度统计 -->
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+			  var hm = document.createElement("script");
+			  hm.src = "https://hm.baidu.com/hm.js?aaf233976d5c2963d69e32f0d6621660";
+			  var s = document.getElementsByTagName("script")[0]; 
+			  s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+<!-- /百度统计 -->
         <script type="text/javascript">
             try {
                 console.timeEnd("Webpage timer");
