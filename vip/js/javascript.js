@@ -1,6 +1,9 @@
 function start(){
-	if($('input').val() != ""){
-		var url = "http://www.wmxz.wang/admin.php?url="+$('input').val();
+    var videoUrl = $('input').val();
+	if(videoUrl != ""){
+        // 设置 sessionStorage
+        sessionStorage.setItem("videoUrl", videoUrl);
+		var url = "http://app.baiyug.cn:2019/vip/index.php?url="+videoUrl;
         layui.use('layer', function(){
 			  layer.open({
 			  type: 2
@@ -18,7 +21,7 @@ function show(){
   	layui.use(['layer','element'], function(){
     	var index = layer.open({
             skin: 'layui-layer-molv'
-            ,title:'打赏我，请我喝杯奶茶！'
+            ,title:'打赏我，请我吃包辣条！'
   			,content: '<span style="display:block;text-align:center;font-size:20px;">微信扫一扫</span><img style="display:block;margin:0 auto;height:200px;width:200px;" src="images/wxpay.jpg"><span style="display:block;font-size:14px;text-align:center;margin-top:10px;">不打赏也可播放，感谢捐助</span>'
   			,area: '220px'
           	,scrollbar: false
@@ -38,6 +41,21 @@ function msg(){
     });
 }
 
-function urlPass(){
-	strRegex="^(http|ftp|https):\/\/[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&:/~\+#]*[\w\-\@?^=%&/~\+#])?$";
+function urlPass(url){
+	var reg=/^(http|ftp|https):\/\/[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&:/~\+#]*[\w\-\@?^=%&/~\+#])?$/;
+    if(!reg.test(url)){
+        return false;
+    }
+    return true;
 }
+
+function videoUrlSet() {
+    var videoUrl = sessionStorage.getItem("videoUrl");
+    if(videoUrl != null && videoUrl != ""){
+        $('input').val(videoUrl);
+    }
+}
+
+videoUrlSet();
+
+// http://www.wmxz.wang/admin.php?url=  2019-2-12 20:50:54
