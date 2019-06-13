@@ -1,16 +1,13 @@
 <!-- disqus -->
-                <div id="disqus_thread"></div>
-                <script type="text/javascript">
-                    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-                    var disqus_shortname = 'white-poplar'; // required: replace example with your forum shortname
-
-                    /* * * DON'T EDIT BELOW THIS LINE * * */
-                    (function() {
-                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-                    })();
-                </script>
-                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                <!-- <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a> -->
+        <div id="disqus_thread"></div>
+				<script src="https://cdn.jsdelivr.net/npm/disqusjs@1.1/dist/disqus.js"></script>
+				<script>
+					var dsqjs = new DisqusJS({
+						shortname: 'white-poplar.',
+						siteName: "黑莓糖专属城堡 · 白楊的博客",
+						apikey: 'G81FQHso8pj4rllhFpV9ZuNrYRgVQZUT9zBjJY8hupOBjpuiQjsElRMwxD38uOGB',
+						admin: 'WhitePoplar',
+						adminLabel: '黑莓糖一生推'
+					});
+				</script>
 <!-- /disqus -->
