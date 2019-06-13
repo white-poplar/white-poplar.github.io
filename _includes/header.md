@@ -50,13 +50,13 @@
           !!  ;;;;;;  ;;;;;;;;;;!;!!!!!;;;;;;;;;;;;;;;;;;!;;;;*;;$;o
           ;   ;;;;;;;;;;;;;;;;;!!!!!!!!!;;;;;;;;  ;;!;;;; ;;**; ;o!!
 
-                                 __               __    __           
-              ____  ____  ____  / /____ ,_       / /_  / /___  ____ _
-             / __ \/ __ \/ __ \/ / __ `/  `\    / __ \/ / __ \/ __ `/
-            / /_/ / /_/ / /_/ / / /_/ / / \_,  / /_/ / / /_/ / /_/ / 
-           / .___/\____/ .___/_/\__,_/_/      /_.___/_/\____/\__, /  
-          /_/          /_/                                  /____/   
 
+        PPPP   OOO  PPPP  L     AA  RRRR      BBBB  L     OOO   GGG  
+        P   P O   O P   P L    A  A R   R     B   B L    O   O G     
+        PPPP  O   O PPPP  L    AAAA RRRR      BBBB  L    O   O G  GG 
+        P     O   O P     L    A  A R R       B   B L    O   O G   G 
+        P      OOO  P     LLLL A  A R  RR     BBBB  LLLL  OOO   GGG  
+                                                             
         @source: 支付志
         @design: white-poplar.
         @coding: white-poplar.
@@ -64,6 +64,7 @@
         @@@@ 与我联系 @@@@
 
         - QQ: 「1161057790」
+        - WeChat: 「1161057790」
         - Gtalk: 「BYH5566@gmail.com」
 
         好吧，上圖其實是 Lin Chi-ling，console 一下，你就知道
@@ -89,19 +90,15 @@
                 top.location = self.location ; 
             }
         </script>
-        <!-- <link href="css/bootstrap.min.css" rel="stylesheet" media="screen"> -->
         <link href="//cdn.bootcss.com/twitter-bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet" media="screen">
-        <!-- <link href="css/bootstrap-responsive.min.css" rel="stylesheet"> -->
         <link href="//cdn.bootcss.com/twitter-bootstrap/2.3.2/css/bootstrap-responsive.min.css" rel="stylesheet">
         <link href="{{ site.url }}/css/style.css" rel="stylesheet">
-        <!-- <link rel="stylesheet" href="{{ site.url }}/plugins/nprogress/nprogress.css"> -->
         <link href="//cdn.bootcss.com/nprogress/0.1.2/nprogress.min.css" rel="stylesheet">
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!-- <script src="js/html5shiv.min.js"></script> -->
         <!--[if lt IE 9]>
             <script src="//cdn.bootcss.com/html5shiv/3.7/html5shiv.min.js"></script>
         <![endif]-->
-        <!-- <script src="js/jquery-1.11.0.min.js"></script> -->
         <script src="//cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/ico/apple-touch-icon-144-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/ico/apple-touch-icon-114-precomposed.png">

@@ -20,10 +20,8 @@ title: 404 Page Not Found
                 top.location = self.location ; 
             }
         </script>
-        <!-- <link href="css/bootstrap.min.css" rel="stylesheet" media="screen"> -->
-        <link href="http://cdn.bootcss.com/twitter-bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet" media="screen">
-        <!-- <link href="css/bootstrap-responsive.min.css" rel="stylesheet"> -->
-        <link href="http://cdn.bootcss.com/twitter-bootstrap/2.3.2/css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="//cdn.bootcss.com/twitter-bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="//cdn.bootcss.com/twitter-bootstrap/2.3.2/css/bootstrap-responsive.min.css" rel="stylesheet">
         <style type="text/css">
             body {font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;}
             a {color: #21759B;}
@@ -32,11 +30,11 @@ title: 404 Page Not Found
             span{padding:0 4px 0 2px;}
             .mt10{margin-top: 10px; text-align: center;}
         </style>
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
-          <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
-                        <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
-                                       <link rel="shortcut icon" href="ico/favicon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.url }}/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/ico/apple-touch-icon-57-precomposed.png">
+        <link rel="shortcut icon" href="{{ site.url }}/ico/favicon.png">
     </head>
     <body>
         <div>
@@ -48,7 +46,7 @@ title: 404 Page Not Found
                 << 返回首页 <a href="{{ site.url }}"> {{ site.url }}</a>
             </div>
             <div id="content">
-                <img src="//white-poplar.shankun.top/img/404.jpg" alt="404">
+                <img src="{{ site.fileUrl }}/img/404.jpg" alt="404">
             </div>
             <div align="center">
                 <p style="margin-bottom:0.5em;">继续访问：</p>

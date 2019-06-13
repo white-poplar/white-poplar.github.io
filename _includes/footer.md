@@ -18,9 +18,7 @@
             </footer>
 <!-- /footer -->
         </div>
-        <!-- <script src="js/bootstrap.min.js"></script> -->
         <script src="//cdn.bootcss.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-        <!-- <script type="text/javascript" src="{{ site.url }}/plugins/nprogress/nprogress.js"></script> -->
         <script src="//cdn.bootcss.com/nprogress/0.1.2/nprogress.min.js"></script>
 <!-- Loading Bar -->
         <script type="text/javascript">
@@ -38,34 +36,25 @@
                 console.log("\n%c{{ site.name }}\n%c真、\n","color:#333333;font-size: 16px;font-weight: bold;","color:#686868;padding-left: 72px;");
                 console.log("等待永遠不能改變");
                 console.log("Gtalk: %cBYH5566[#]gmail.com", "color:red");
-                console.log("个人网站: //white-poplar.github.io/");
-                console.log("%c ", "padding:450px 300px 0 0;background:url('https://white-poplar.shankun.top/img/Lin+Chi-ling.jpg') no-repeat;");
+                console.log("个人网站: {{ site.url }}");
+                console.log("%c ", "padding:450px 300px 0 0;background:url('{{ site.fileUrl }}/img/Lin+Chi-ling.jpg') no-repeat;");
             } catch (e) {};
         </script>
 <!-- /console -->
-<!-- Google Analytics -->
+        <!-- Google Analytics -->
+                
+        <!-- /Google Analytics -->
+        <!-- 百度统计 -->
         <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-            ga('create', 'UA-50979340-1', 'white-poplar.github.io');
-            ga('send', 'pageview');
-
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?075c2a63127a4ee79b1592a9eca6f391";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
         </script>
-<!-- /Google Analytics -->
-<!-- 百度统计 -->
-		<script>
-			var _hmt = _hmt || [];
-			(function() {
-			  var hm = document.createElement("script");
-			  hm.src = "https://hm.baidu.com/hm.js?aaf233976d5c2963d69e32f0d6621660";
-			  var s = document.getElementsByTagName("script")[0]; 
-			  s.parentNode.insertBefore(hm, s);
-			})();
-		</script>
-<!-- /百度统计 -->
+        <!-- /百度统计 -->
         <script type="text/javascript">
             try {
                 console.timeEnd("Webpage timer");
