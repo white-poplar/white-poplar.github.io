@@ -2,8 +2,8 @@
                 <div id="disqus_thread"></div>
                 <script src="https://cdn.jsdelivr.net/npm/disqusjs@1.1/dist/disqus.js"></script>
                 <script>
-                    var dsqjs = new DisqusJS({
-                        shortname: 'white-poplar',
+                    new DisqusJS({
+                        shortname: 'white-poplar.',
                         siteName: "黑莓糖专属城堡",
                         apikey: 'G81FQHso8pj4rllhFpV9ZuNrYRgVQZUT9zBjJY8hupOBjpuiQjsElRMwxD38uOGB',
                         admin: 'WhitePoplar',
