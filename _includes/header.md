@@ -105,6 +105,7 @@
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.url }}/ico/apple-touch-icon-72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/ico/apple-touch-icon-57-precomposed.png">
         <link rel="shortcut icon" href="{{ site.url }}/ico/favicon.png">
+        <script src="//cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
     </head>
     <body>
         <div class="container">

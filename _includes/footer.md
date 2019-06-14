@@ -18,7 +18,6 @@
             </footer>
 <!-- /footer -->
         </div>
-		<script src="//cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
         <script src="//cdn.bootcss.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
         <script src="//cdn.bootcss.com/nprogress/0.1.2/nprogress.min.js"></script>
 <!-- Loading Bar -->
