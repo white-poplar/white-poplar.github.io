@@ -5,7 +5,7 @@ category: tech
 tags: [云存储, 图片加速]
 ---
 
-![云存储]({{ site.fileUrl }}/posts/img/Cloud-Storage-Services.jpg)
+![云存储]({{ site.fileUrl }}/img/posts/Cloud-Storage-Services.jpg)
 
 之前就听到过云存储什么东东的，但自己也没去深入去了解这些。前两天突然想在博客的文章上配张图，而如果继续在 [GitHub](https://github.com/ "GitHub") 上添加图片，先不说速度问题，而是 [GitHub](https://github.com/ "GitHub") 已经是免费的了，再在其上面添加大量的图片，真的大丈夫吗？
 
@@ -29,11 +29,11 @@ tags: [云存储, 图片加速]
 我主要使用了水印和缩略图的功能：
 
 	* 水印
-		1. 上传一张水印源图片 {{ site.fileUrl }}/watermark.png
+		1. 上传一张水印源图片 fileUrl/watermark.png
 		2. 将路径经过Base64编码 (请百度) aHR0cDovL3doaXRlLXBvcGxhci5xaW5pdWRuLmNvbS93YXRlcm1hcmsucG5n
-		3. 效果 {{ site.fileUrl }}/img/5cm.jpg?watermark/1/image/aHR0cDovL3doaXRlLXBvcGxhci5xaW5pdWRuLmNvbS93YXRlcm1hcmsucG5n/dissolve/50/gravity/SouthEast/dx/5/dy/5
+		3. 效果 fileUrl/img/5cm.jpg?watermark/1/image/aHR0cDovL3doaXRlLXBvcGxhci5xaW5pdWRuLmNvbS93YXRlcm1hcmsucG5n/dissolve/50/gravity/SouthEast/dx/5/dy/5
 	* 缩略图
-		{{ site.fileUrl }}/img/5cm.jpg?imageView2/1/w/200/h/200
+		fileUrl/img/5cm.jpg?imageView2/1/w/200/h/200
 
 PS：参数什么的 `API` 好像给的挺详细的，多看！好像没提到图片加速啊，⊙﹏⊙b汗，反正他们使用的是什么CDN加速什么的。（好吧，确实不是很清楚什么CDN）
 

@@ -5,7 +5,7 @@ category: life
 tags: [说给自己听, 理想主义]
 ---
 
-![至尊宝]({{ site.fileUrl }}/posts/img/zzb.png)
+![至尊宝]({{ site.fileUrl }}/img/posts/zzb.png)
 
 > 文： [连岳微信](http://mp.weixin.qq.com/s?__biz=MjM5NDU0Mjk2MQ==&mid=202901242&idx=1&sn=187e86350564cb4755996aeb04b44f93&3rd=MzA3MDU4NTYzMw==&scene=6#rd) 
 <!--break-->

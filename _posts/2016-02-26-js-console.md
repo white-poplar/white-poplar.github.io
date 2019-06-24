@@ -40,7 +40,7 @@ Console对象提供了5种方法用来显示信息。
 	console.log("等待永遠不能改變");
 	console.log("Gtalk: %cBYH5566[#]gmail.com", "color:red");
 	console.log("个人网站: http://white-poplar.github.io/");
-	console.log("%c", "padding:218px 150px;line-height:460px;background:url('http://white-poplar.github.io/img/Lin+Chi-ling.jpg') no-repeat;");
+	console.log("%c ", "background:url('http://white-poplar.github.io/img/Lin+Chi-ling.jpg') no-repeat;line-height:450px;padding:0 450px;");
 
 **文字颜色在IE下无效，图片只有Chrome浏览器能显示**
 

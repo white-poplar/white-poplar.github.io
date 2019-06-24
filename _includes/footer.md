@@ -2,7 +2,7 @@
 <!-- footer -->
             <footer class="clearfix visible-desktop">
                 <div class="pull-right">
-                    &copy; 2013 - <script> document.write(new Date().getFullYear());</script> <a href="{{ site.url }}" title="{{ site.owner.nickname }}" >{{ site.owner.name }}</a>.
+                    &copy; 2014 - <script> document.write(new Date().getFullYear());</script> <a href="{{ site.url }}" title="{{ site.owner.nickname }}" >{{ site.owner.name }}</a>.
                 </div>
                 <div>
                     Hosted by <a href="//pages.github.com" title="GitHub Pages" >GitHub Pages</a> | UI Designed by <a href="{{ site.url }}" title="{{ site.owner.nickname }}">{{ site.owner.name }}</a>. | 托管商：<a href="//github.com" title="GitHub">GitHub</a> | 图片存储：<a href="//www.qiniu.com" title="七牛云存储">七牛云</a>
@@ -37,7 +37,7 @@
                 console.log("等待永遠不能改變");
                 console.log("Gtalk: %cBYH5566[#]gmail.com", "color:red");
                 console.log("个人网站: {{ site.url }}");
-                console.log("%c ", "padding:450px 300px 0 0;background:url('{{ site.fileUrl }}/img/Lin+Chi-ling.jpg') no-repeat;");
+                console.log("%c ", "background:url('https:{{ site.fileUrl }}/img/Lin+Chi-ling.jpg') no-repeat;line-height:450px;padding:0 450px;");
             } catch (e) {};
         </script>
 <!-- /console -->

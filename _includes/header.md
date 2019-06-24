@@ -93,31 +93,31 @@
         <link href="//cdn.bootcss.com/twitter-bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet" media="screen">
         <link href="//cdn.bootcss.com/twitter-bootstrap/2.3.2/css/bootstrap-responsive.min.css" rel="stylesheet">
         <link href="//cdn.bootcss.com/nprogress/0.1.2/nprogress.min.css" rel="stylesheet">
-		<link href="{{ site.url }}/css/style.css" rel="stylesheet">
+		<link href="{{ site.fileUrl }}/css/style.css" rel="stylesheet">
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-        <!-- <script src="js/html5shiv.min.js"></script> -->
+        <!-- <script src="{{ site.fileUrl }}/js/html5shiv.min.js"></script> -->
         <!--[if lt IE 9]>
             <script src="//cdn.bootcss.com/html5shiv/3.7/html5shiv.min.js"></script>
         <![endif]-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/disqusjs@1.2/dist/disqusjs.css">
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/ico/apple-touch-icon-144-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/ico/apple-touch-icon-114-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.url }}/ico/apple-touch-icon-72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/ico/apple-touch-icon-57-precomposed.png">
-        <link rel="shortcut icon" href="{{ site.url }}/ico/favicon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.fileUrl }}/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.fileUrl }}/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.fileUrl }}/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="{{ site.fileUrl }}/ico/apple-touch-icon-57-precomposed.png">
+        <link rel="shortcut icon" href="{{ site.fileUrl }}/ico/favicon.png">
         <script src="//cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
     </head>
     <body>
         <div class="container">
             <div id="QRcode">
-                <img src="{{ site.url }}/img/qrcode.png" alt="Qrcode">
+                <img src="{{ site.fileUrl }}/img/qrcode.png" alt="Qrcode">
                 <br/>
                 手机扫描二维码快速访问
             </div>
 <!-- header -->
             <header class="header text-center">
                 <div class="pb15">
-                    <img src="{{ site.url }}/img/avatar.jpg" alt="avatar">
+                    <img src="{{ site.fileUrl }}/img/avatar.jpg" alt="avatar">
                     <div class="title"> {{ site.name }} </div>
                     <div class="description">{{ site.description }}</div>
                 </div>
