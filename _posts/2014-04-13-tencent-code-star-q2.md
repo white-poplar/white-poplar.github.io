@@ -5,11 +5,13 @@ category: programming
 tags: [CSS3]
 ---
 
-![Tencent 前端突击队]({{ site.url }}/img/posts/tencent2.jpg)
+![Tencent 前端突击队]({{ site.url }}/img/posts/tencent2-fix.jpg)
 
 周六晚上，浏览信息时看到腾讯 [前端突击队](http://codestar.alloyteam.com/ "前端突击队") 第二季出了,觉得挺有意思的，就完了会，一发不可收拾，玩到了凌晨3点。
 
 游戏开始时提示通关会有福利的，最后通关后发现就是上图的漂亮妹子的`等我找你~`(⊙o⊙)…
+
+图片丢了 o(╥﹏╥)o
 <!--break-->
 游戏里面的题目感觉还是挺难的，唉，前端水很深，路还很长啊！
 
