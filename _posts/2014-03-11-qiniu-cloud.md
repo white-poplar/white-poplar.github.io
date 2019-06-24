@@ -5,7 +5,7 @@ category: tech
 tags: [云存储, 图片加速]
 ---
 
-![云存储]({{ site.fileUrl }}/img/posts/Cloud-Storage-Services.jpg)
+![云存储]({{ site.url }}/img/posts/Cloud-Storage-Services.jpg)
 
 之前就听到过云存储什么东东的，但自己也没去深入去了解这些。前两天突然想在博客的文章上配张图，而如果继续在 [GitHub](https://github.com/ "GitHub") 上添加图片，先不说速度问题，而是 [GitHub](https://github.com/ "GitHub") 已经是免费的了，再在其上面添加大量的图片，真的大丈夫吗？
 
