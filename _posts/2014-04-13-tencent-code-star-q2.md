@@ -5,7 +5,7 @@ category: programming
 tags: [CSS3]
 ---
 
-![Tencent 前端突击队]({{ site.url }}/img/posts/tencent2-fix.png)
+![Tencent 前端突击队]({{ site.url }}/img/posts/tencent2.png)
 
 周六晚上，浏览信息时看到腾讯 [前端突击队](http://codestar.alloyteam.com/ "前端突击队") 第二季出了,觉得挺有意思的，就完了会，一发不可收拾，玩到了凌晨3点。
 
