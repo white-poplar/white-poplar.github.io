@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+}
+.pull-left {
+	float: left;
+}
+.pull-right {
+	float: right;
+}
+.justify {
+	text-align:justify;
+	text-justify:inter-ideograph;
+}
+.strong {
+	font-weight: bold;
+}
+#photo {
+	padding-top: 40px;
+}
+#personal-data span {
+	font-weight: bold;
+	color: #000;
+}
+P {
+	line-height: 1.4;
+}
