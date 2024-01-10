@@ -37,7 +37,7 @@
                 console.log("等待永遠不能改變");
                 console.log("Gtalk: %cBYH5566[#]gmail.com", "color:red");
                 console.log("个人网站: {{ site.url }}");
-                console.log("%c ", "background:url('https:{{ site.fileUrl }}/img/Lin+Chi-ling.jpg') no-repeat;line-height:450px;padding:0 450px;");
+                console.log("%c ", "background:url('{{ site.fileUrl }}/img/Lin+Chi-ling.jpg') no-repeat;line-height:450px;padding:0 450px;");
             } catch (e) {};
         </script>
 <!-- /console -->
