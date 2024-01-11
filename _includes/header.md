@@ -99,7 +99,6 @@
         <!--[if lt IE 9]>
             <script src="//cdn.bootcss.com/html5shiv/3.7/html5shiv.min.js"></script>
         <![endif]-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/disqusjs@1.2/dist/disqusjs.css">
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.fileUrl }}/ico/apple-touch-icon-144-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.fileUrl }}/ico/apple-touch-icon-114-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.fileUrl }}/ico/apple-touch-icon-72-precomposed.png">

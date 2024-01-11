@@ -1,4 +1,5 @@
 <!-- disqus -->
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/disqusjs@1.2/dist/disqusjs.css">
                 <div id="disqus_thread"></div>
                 <script src="https://cdn.jsdelivr.net/npm/disqusjs@1.1/dist/disqus.js"></script>
                 <script>
